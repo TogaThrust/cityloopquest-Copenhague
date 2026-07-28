@@ -1,4 +1,20 @@
 CityLoop Quest Copenhague - Release notes
+Version 26.07.06
+----------------------------------------
+- Quiz coverage updated: 20 tour stop(s) now have quizzes (was 0).
+- Culture videos updated: Personnages marquants, Origines et développement.
+
+CityLoop Quest Copenhague - Release notes
+Version 26.07.05
+----------------------------------------
+- Quiz coverage updated: 20 tour stop(s) now have quizzes (was 0).
+
+CityLoop Quest Copenhague - Release notes
+Version 26.07.04
+----------------------------------------
+- Quiz coverage updated: 20 tour stop(s) now have quizzes (was 0).
+
+CityLoop Quest Copenhague - Release notes
 Version 26.07.03
 ----------------------------------------
 - Quiz coverage updated: 20 tour stop(s) now have quizzes (was 0).
