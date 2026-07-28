@@ -1,6 +1,6 @@
 {
-  "version": "26.07.07",
-  "savedAt": "2026-07-28T18:41:58.298Z",
+  "version": "26.07.08",
+  "savedAt": "2026-07-28T18:45:26.274Z",
   "citySummary": {
     "cityName": "Copenhague",
     "appTitle": "CityLoop Quest Copenhague",
@@ -118,11 +118,11 @@
   },
   "files": {
     "app.js": "249c6664bc7cb76624ce5eb0073e30bf3cb705e51593eb0f3fd2e29aaffe1c5b",
-    "main.html": "a360fb1e0efc1f5b90742ceb2faa82b0c306aeaf400115c20ce291bd0482c22a",
+    "main.html": "742b04cfb58bf78561d160cb6e22ca5f8389f5c499c2b9edf0fe83c7dfb9f830",
     "parcours.html": "1c6a996bc860d0111d0b29db6d24edb814ef3535173ef2bc589d8397a8ad6f08",
-    "circuit.html": "aa299fd7543fc02bf50de6bfbb61065a6d2933894dcf964ff943971787d29a96",
+    "circuit.html": "cfc881cbd7aa6739b195c097b80d3b9d629a982ccfaa5b889a20f89aba15fa55",
     "circuit-data.js": "ca3c6b7e690afa17496b213872e5b3e48200c2df3f2ae228da83f7f864cd5032",
-    "service-worker.js": "6f1bd4ebf345637f29b6afac1cd1035ec83587cf8314512c943351d29e06d52e",
+    "service-worker.js": "3ee495b26d45239d13af2c0821f6ccbb5b82646d7a811b36a22f6d6ea3f1ffc3",
     "instructions.html": "2e1854dbafe6e77d3151aa0a49dc461c91c608c1084643808788dfcce08e6ec2"
   }
 }
