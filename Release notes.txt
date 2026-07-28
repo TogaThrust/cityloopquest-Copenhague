@@ -1,4 +1,9 @@
 CityLoop Quest Copenhague - Release notes
+Version 26.07.07
+----------------------------------------
+- Quiz coverage updated: 20 tour stop(s) now have quizzes (was 0).
+
+CityLoop Quest Copenhague - Release notes
 Version 26.07.06
 ----------------------------------------
 - Quiz coverage updated: 20 tour stop(s) now have quizzes (was 0).
