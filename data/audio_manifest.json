@@ -1,0 +1,1820 @@
+{
+  "generatedAt": "2026-07-28T15:18:07.833Z",
+  "model": "gpt-4o-mini-tts",
+  "voice": "Remi",
+  "files": {
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_fr.mp3": {
+      "hash": "2f97493ff79025fb4502ac82001c3be56e3ce61c",
+      "lang": "fr",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:18:55.267Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_nl.mp3": {
+      "hash": "5ca5204833e0e719597c40b07a8b7c40fdc30433",
+      "lang": "nl",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:19:21.238Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_en.mp3": {
+      "hash": "e2bd39e46ec654d20718c24d7b71a1bc28f2ad05",
+      "lang": "en",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:19:44.303Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_de.mp3": {
+      "hash": "7c79bb0f168b9b89cd3be6a655b036532b931eb1",
+      "lang": "de",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:20:13.941Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_it.mp3": {
+      "hash": "0b8f357efba90fd99156df51ac8054294eba5e8b",
+      "lang": "it",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:20:54.534Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_es.mp3": {
+      "hash": "b2b87adbaa3609e425db601f89a188f8e71027ee",
+      "lang": "es",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:21:18.735Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_pl.mp3": {
+      "hash": "603a69b0961cd32ad0514763259ff5744c803857",
+      "lang": "pl",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:21:24.247Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_ar.mp3": {
+      "hash": "ae24c86bfc1bdb51f0ea8bea0ae36365e84ec382",
+      "lang": "ar",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:21:29.807Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_cn.mp3": {
+      "hash": "28daa65fbacbfaf043cdcf939f627feae9872e02",
+      "lang": "cn",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:21:35.090Z"
+    },
+    "audio/Chateau_de_Rosenborg_et_Jardin_du_Roi_ja.mp3": {
+      "hash": "0052f4560eec0360da16513e7613ec2143ac4bb1",
+      "lang": "ja",
+      "label": "POI parcours: Château de Rosenborg et Jardin du Roi",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:21:41.529Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_fr.mp3": {
+      "hash": "f717dfb48a5100f91636b201cf6806f9a8b4fefd",
+      "lang": "fr",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:22:03.758Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_nl.mp3": {
+      "hash": "4d3d2d5556f7ddc2afb7ae9150eb4b862c5488c4",
+      "lang": "nl",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:22:30.300Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_en.mp3": {
+      "hash": "e28efef584ee83af4635d7210f146dacd1eb4d52",
+      "lang": "en",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:22:53.784Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_de.mp3": {
+      "hash": "bb3e8f6f4cd4c7f05d9bcbf66965cfd715bfb353",
+      "lang": "de",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:23:24.168Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_it.mp3": {
+      "hash": "ffcf2fac405f157b4608e49e923b8345a3eca81f",
+      "lang": "it",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:24:05.362Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_es.mp3": {
+      "hash": "be68f6f11a62710d81c066957626741600c86a43",
+      "lang": "es",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:24:29.231Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_pl.mp3": {
+      "hash": "436a30f91bbf21b871c7b690bb170dee31dc5bcf",
+      "lang": "pl",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:24:34.381Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_ar.mp3": {
+      "hash": "c5d26e0cee569bd374a57d0e61f7de63c4ca7474",
+      "lang": "ar",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:24:40.041Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_cn.mp3": {
+      "hash": "cc899e0d2aa8974e33b70bdccb5c9489b2791d4d",
+      "lang": "cn",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:24:45.356Z"
+    },
+    "audio/Tour_Ronde_Rundetarn_ja.mp3": {
+      "hash": "eb1c2e39865f5bddc5d421fc625cead6197f0158",
+      "lang": "ja",
+      "label": "POI parcours: Tour Ronde — Rundetårn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:24:52.954Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_fr.mp3": {
+      "hash": "f1caf2a701693343a65eb641588c08ed1dfbeec7",
+      "lang": "fr",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:25:15.143Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_nl.mp3": {
+      "hash": "403b2b9f5ce4ccde55d737a2717a8b179e4a1aa8",
+      "lang": "nl",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:25:40.376Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_en.mp3": {
+      "hash": "43d01a728217a7a6457af0914432677426f5e5bd",
+      "lang": "en",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:26:02.956Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_de.mp3": {
+      "hash": "eb5237cefde6c043cd4ad0a69df8400266fec282",
+      "lang": "de",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:26:32.245Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_it.mp3": {
+      "hash": "6c84e159bb0408d564e26c3c0979d3057b949799",
+      "lang": "it",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:27:12.650Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_es.mp3": {
+      "hash": "1a18879404b5031499f13c0c58dfe3e7b75c2f1c",
+      "lang": "es",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:27:36.869Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_pl.mp3": {
+      "hash": "eb154ba2b9ccd8f06074da08236706b50596b165",
+      "lang": "pl",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:27:54.119Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_ar.mp3": {
+      "hash": "8309c1e2908ab52c53f385b411bc74d88284cb8d",
+      "lang": "ar",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:28:15.958Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_cn.mp3": {
+      "hash": "29c5b3bd6a90ffaa8f4270e7d65dc628c56bf4f2",
+      "lang": "cn",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:28:38.231Z"
+    },
+    "audio/Cathedrale_Notre_Dame_Vor_Frue_Kirke_ja.mp3": {
+      "hash": "fd665314b7ee8ae048b09b444d1b2e1dcbc9a3b5",
+      "lang": "ja",
+      "label": "POI parcours: Cathédrale Notre-Dame — Vor Frue Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:28:59.353Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_fr.mp3": {
+      "hash": "0f921a2a1c11b6b132038d1a787f696fc6a0a998",
+      "lang": "fr",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:29:32.887Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_nl.mp3": {
+      "hash": "3f850fc9aa6cdd90098a6ff578f4192701d1b2e2",
+      "lang": "nl",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:30:11.487Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_en.mp3": {
+      "hash": "0d034c3ac71bde9c1e7be29f3de348d9c27d7244",
+      "lang": "en",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:30:44.068Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_de.mp3": {
+      "hash": "3d1e9898baa55db6580a7d6fba9bd3ab08d1047c",
+      "lang": "de",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:31:27.861Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_it.mp3": {
+      "hash": "59b6fb57c5920722fa793a2fc2a980caa66b45f9",
+      "lang": "it",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:32:14.453Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_es.mp3": {
+      "hash": "fb41243e136e4c43ae3d98a4c74539e7992120fa",
+      "lang": "es",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:32:43.620Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_pl.mp3": {
+      "hash": "8299745190f36cc23eaa94ff60fe8283914ebc7b",
+      "lang": "pl",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:32:49.431Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_ar.mp3": {
+      "hash": "924fb4fbfa9e7918f35052a2e40e4bff4c224c83",
+      "lang": "ar",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:32:55.915Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_cn.mp3": {
+      "hash": "c64c10af4f72570721bf8940fd87bc5b15b40f6b",
+      "lang": "cn",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:33:02.251Z"
+    },
+    "audio/Hotel_de_Ville_et_Radhuspladsen_ja.mp3": {
+      "hash": "4ad60eea5ca586445ce1108204df787e7c4e0e95",
+      "lang": "ja",
+      "label": "POI parcours: Hôtel de Ville et Rådhuspladsen",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:33:09.445Z"
+    },
+    "audio/Jardins_de_Tivoli_fr.mp3": {
+      "hash": "539971abc9ab91ff867b5133e3df7bc6a9124711",
+      "lang": "fr",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:33:34.621Z"
+    },
+    "audio/Jardins_de_Tivoli_nl.mp3": {
+      "hash": "b1ecee57353d65d704c90333e09ca596059ac317",
+      "lang": "nl",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:34:03.907Z"
+    },
+    "audio/Jardins_de_Tivoli_en.mp3": {
+      "hash": "c15c5ca65554889963a38c97cc5a4433e31a5e62",
+      "lang": "en",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:34:31.260Z"
+    },
+    "audio/Jardins_de_Tivoli_de.mp3": {
+      "hash": "c04215a79b6da4e25883c84c25a11e3f364e2f73",
+      "lang": "de",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:35:05.237Z"
+    },
+    "audio/Jardins_de_Tivoli_it.mp3": {
+      "hash": "9a62b356fcbdd1be1b9b7d438c771b6bfe15f652",
+      "lang": "it",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:35:49.214Z"
+    },
+    "audio/Jardins_de_Tivoli_es.mp3": {
+      "hash": "dec29f352bf662a5b1b2aaf22b035cc74c9bac10",
+      "lang": "es",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:36:17.503Z"
+    },
+    "audio/Jardins_de_Tivoli_pl.mp3": {
+      "hash": "4d40355e0ee1319dc1fd5e340ba553f6e874d2ca",
+      "lang": "pl",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:36:23.699Z"
+    },
+    "audio/Jardins_de_Tivoli_ar.mp3": {
+      "hash": "0ec8120b95f44394c7ad79bf9c92b5d5ba3d1418",
+      "lang": "ar",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:36:29.804Z"
+    },
+    "audio/Jardins_de_Tivoli_cn.mp3": {
+      "hash": "0fa04ce4ade25de72c9bc735135e8be2c3f56437",
+      "lang": "cn",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:36:36.053Z"
+    },
+    "audio/Jardins_de_Tivoli_ja.mp3": {
+      "hash": "0a77f68e9c89c464b3229bc2512e96b77287f931",
+      "lang": "ja",
+      "label": "POI parcours: Jardins de Tivoli",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:36:43.391Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_fr.mp3": {
+      "hash": "e499657977b3ff4365a069ea5f3fac4a399eaf89",
+      "lang": "fr",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:37:09.561Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_nl.mp3": {
+      "hash": "c31a545b56de2ea547c4f716049598f262653c62",
+      "lang": "nl",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:37:41.668Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_en.mp3": {
+      "hash": "f39879adae336771a02b7abca0e85f68faea9f50",
+      "lang": "en",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:38:09.848Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_de.mp3": {
+      "hash": "1033542e42dcfadc8f2aa22f89c7f3087b28289c",
+      "lang": "de",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:38:45.224Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_it.mp3": {
+      "hash": "02831e1231fa7e8164141672bfa3500c21220635",
+      "lang": "it",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:39:32.164Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_es.mp3": {
+      "hash": "014080b75e5df52b85f6c9179aa8e6feb4c9b0e4",
+      "lang": "es",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:40:00.932Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_pl.mp3": {
+      "hash": "32867d1ac47ae44d45f7808cdf78c62a829a3beb",
+      "lang": "pl",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:40:07.472Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_ar.mp3": {
+      "hash": "26f08ff28c1f375017b16a0c67292cff24adb78d",
+      "lang": "ar",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:40:14.068Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_cn.mp3": {
+      "hash": "1f0d20caf6b87e10bef5ad053a58822b9b88d3f3",
+      "lang": "cn",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:40:20.465Z"
+    },
+    "audio/Ny_Carlsberg_Glyptotek_ja.mp3": {
+      "hash": "278b6d616b662f2b4bf78b02442f3d2685ceab50",
+      "lang": "ja",
+      "label": "POI parcours: Ny Carlsberg Glyptotek",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:40:29.285Z"
+    },
+    "audio/Palais_de_Christiansborg_fr.mp3": {
+      "hash": "408af1732e3019e756ded2d58555d403b7d96af7",
+      "lang": "fr",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:40:54.271Z"
+    },
+    "audio/Palais_de_Christiansborg_nl.mp3": {
+      "hash": "eb3a396c524a2447be9ee4e66d18bedf40ef52de",
+      "lang": "nl",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:41:23.959Z"
+    },
+    "audio/Palais_de_Christiansborg_en.mp3": {
+      "hash": "fa7991c1146d897a008f18245ef35fda3196daf6",
+      "lang": "en",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:41:49.827Z"
+    },
+    "audio/Palais_de_Christiansborg_de.mp3": {
+      "hash": "64931ca8639030c01c1023bf4fc9610eda387496",
+      "lang": "de",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:42:23.797Z"
+    },
+    "audio/Palais_de_Christiansborg_it.mp3": {
+      "hash": "6f59d56015e7c0eaf206e7a91298a806f1fab04b",
+      "lang": "it",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:43:06.738Z"
+    },
+    "audio/Palais_de_Christiansborg_es.mp3": {
+      "hash": "5034c851e7a90f2c343f31207e5a897b4e20e417",
+      "lang": "es",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:43:33.500Z"
+    },
+    "audio/Palais_de_Christiansborg_pl.mp3": {
+      "hash": "79312437231fc3b1d600cb73e6c6233c42ab4815",
+      "lang": "pl",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:43:40.673Z"
+    },
+    "audio/Palais_de_Christiansborg_ar.mp3": {
+      "hash": "8a38e1dd33fc5edaa821e3fe14183a581460f463",
+      "lang": "ar",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:43:46.594Z"
+    },
+    "audio/Palais_de_Christiansborg_cn.mp3": {
+      "hash": "e65f800fc105ba12d8677d1b78065c740bb342e6",
+      "lang": "cn",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:43:52.102Z"
+    },
+    "audio/Palais_de_Christiansborg_ja.mp3": {
+      "hash": "4e43894e03b853cd2e8f707cc2c6e292f15e680a",
+      "lang": "ja",
+      "label": "POI parcours: Palais de Christiansborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:43:59.342Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_fr.mp3": {
+      "hash": "2b4ac272427a627a9938a9715a20919c2727c4df",
+      "lang": "fr",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:44:23.045Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_nl.mp3": {
+      "hash": "f40d0b810b6aa6efdfdea5d34d125ba5ea3fa844",
+      "lang": "nl",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:44:49.440Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_en.mp3": {
+      "hash": "413b154d968e581fba821d80f3c72cf4b8725e53",
+      "lang": "en",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:45:15.790Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_de.mp3": {
+      "hash": "14f8080023d528889525f6592b11cd2e7fd88ade",
+      "lang": "de",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:45:47.162Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_it.mp3": {
+      "hash": "f9e6281b920ee807709d5368199ef754986c1595",
+      "lang": "it",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:46:29.758Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_es.mp3": {
+      "hash": "7a491414f58cf559c49d02a063d5e2bcc4f780e9",
+      "lang": "es",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:46:55.940Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_pl.mp3": {
+      "hash": "3fae4136c6a02e0dcec9311c1d7bbf7669c04990",
+      "lang": "pl",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:47:01.296Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_ar.mp3": {
+      "hash": "456cff87571f5fa3cb201c1d8498f50d26ef9e50",
+      "lang": "ar",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:47:07.610Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_cn.mp3": {
+      "hash": "4870fc1d11f240d574583f8d2faf32720cde2250",
+      "lang": "cn",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:47:13.317Z"
+    },
+    "audio/H_jbro_Plads_statue_d_Absalon_et_Gammel_Strand_ja.mp3": {
+      "hash": "132eac3851a0b976b8058392fc50b09f1e36c971",
+      "lang": "ja",
+      "label": "POI parcours: Højbro Plads, statue d’Absalon et Gammel Strand",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:47:20.179Z"
+    },
+    "audio/Kongens_Nytorv_fr.mp3": {
+      "hash": "b9ca4f533e67f6c75c161cb010f68167f960f74d",
+      "lang": "fr",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:47:44.453Z"
+    },
+    "audio/Kongens_Nytorv_nl.mp3": {
+      "hash": "f4cfa6dccec8cffc01de435b61830c48daeda7a7",
+      "lang": "nl",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:48:13.039Z"
+    },
+    "audio/Kongens_Nytorv_en.mp3": {
+      "hash": "6c25b56e86cd6e0c4830cc734a5c8b9f3bcb99cd",
+      "lang": "en",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:48:39.010Z"
+    },
+    "audio/Kongens_Nytorv_de.mp3": {
+      "hash": "c41e2e669e7ed172bb0471c2dc07b883003be635",
+      "lang": "de",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:49:11.474Z"
+    },
+    "audio/Kongens_Nytorv_it.mp3": {
+      "hash": "2dc0e804a0bc84e05944c851d5b86a12f4edda55",
+      "lang": "it",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:49:54.171Z"
+    },
+    "audio/Kongens_Nytorv_es.mp3": {
+      "hash": "836345b248f07c9bff4759cd3f361c5270459616",
+      "lang": "es",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:50:20.384Z"
+    },
+    "audio/Kongens_Nytorv_pl.mp3": {
+      "hash": "ccf74c31db5cf6a4ce8d2a6356e21242a432685f",
+      "lang": "pl",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:50:26.368Z"
+    },
+    "audio/Kongens_Nytorv_ar.mp3": {
+      "hash": "82597b66a53e452bdebd40d3b7ec7d8eb8277088",
+      "lang": "ar",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:50:32.737Z"
+    },
+    "audio/Kongens_Nytorv_cn.mp3": {
+      "hash": "957d8ed394ed08cb1577aa24b0bd89cb006ca338",
+      "lang": "cn",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:50:36.673Z"
+    },
+    "audio/Kongens_Nytorv_ja.mp3": {
+      "hash": "daff708483788c3d1b4a50c998519164c0320c5b",
+      "lang": "ja",
+      "label": "POI parcours: Kongens Nytorv",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:50:43.242Z"
+    },
+    "audio/Nyhavn_fr.mp3": {
+      "hash": "cafacd57cb9eeaaaf997edae66f52e9eb535b586",
+      "lang": "fr",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:51:06.680Z"
+    },
+    "audio/Nyhavn_nl.mp3": {
+      "hash": "a5b746f7587fbd18b773e2de3d57dfe5ac4d4bcf",
+      "lang": "nl",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:51:33.999Z"
+    },
+    "audio/Nyhavn_en.mp3": {
+      "hash": "174bcb42b02110c231254291d8fadca330528d1b",
+      "lang": "en",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:51:56.813Z"
+    },
+    "audio/Nyhavn_de.mp3": {
+      "hash": "2ddcc78f4fe3601a16773905a89638943fc21f5d",
+      "lang": "de",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:52:27.283Z"
+    },
+    "audio/Nyhavn_it.mp3": {
+      "hash": "ab5c22b6fe4ecd406764c5cbdf6092fcccf5bf53",
+      "lang": "it",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:53:07.298Z"
+    },
+    "audio/Nyhavn_es.mp3": {
+      "hash": "f81b182d45c7abff88ceed0014606ba068d7bf28",
+      "lang": "es",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:53:32.677Z"
+    },
+    "audio/Nyhavn_pl.mp3": {
+      "hash": "b5426a60ab76680830be396c1a8f92f93c699ac8",
+      "lang": "pl",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:53:37.849Z"
+    },
+    "audio/Nyhavn_ar.mp3": {
+      "hash": "634296de1daa43b851495fd59e76b366125f6dc3",
+      "lang": "ar",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:53:43.359Z"
+    },
+    "audio/Nyhavn_cn.mp3": {
+      "hash": "7c2b37355de05fc51ed3fd353b84e93fff7be645",
+      "lang": "cn",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:53:48.716Z"
+    },
+    "audio/Nyhavn_ja.mp3": {
+      "hash": "f5d6d238042a895aec53a458f7d8e010a994bef4",
+      "lang": "ja",
+      "label": "POI parcours: Nyhavn",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:53:55.177Z"
+    },
+    "audio/Palais_d_Amalienborg_fr.mp3": {
+      "hash": "4938889e6fe5e21b56918263d3ceb4989dcd98cb",
+      "lang": "fr",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:54:16.702Z"
+    },
+    "audio/Palais_d_Amalienborg_nl.mp3": {
+      "hash": "247888806c61e298ede774be324a61bc98979fbb",
+      "lang": "nl",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:54:41.703Z"
+    },
+    "audio/Palais_d_Amalienborg_en.mp3": {
+      "hash": "941f7bc0cc7f19a4df9d5ed98d8541db00610be7",
+      "lang": "en",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:55:04.362Z"
+    },
+    "audio/Palais_d_Amalienborg_de.mp3": {
+      "hash": "5500a58ca166aeaa172c44e31492521d06837f6b",
+      "lang": "de",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:55:32.648Z"
+    },
+    "audio/Palais_d_Amalienborg_it.mp3": {
+      "hash": "9596bb3de80d7c8b4b309b0a03cd25bced9b8f8e",
+      "lang": "it",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:56:11.629Z"
+    },
+    "audio/Palais_d_Amalienborg_es.mp3": {
+      "hash": "98cdc83cb3ba710527ea8a4a3a050bee93864a38",
+      "lang": "es",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:56:35.673Z"
+    },
+    "audio/Palais_d_Amalienborg_pl.mp3": {
+      "hash": "f4cb531920653df2d17d977209c3aefe86084ee9",
+      "lang": "pl",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:56:40.664Z"
+    },
+    "audio/Palais_d_Amalienborg_ar.mp3": {
+      "hash": "2459164f5f8daed126107842316440e5d790c9ee",
+      "lang": "ar",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:56:46.054Z"
+    },
+    "audio/Palais_d_Amalienborg_cn.mp3": {
+      "hash": "c086c99e34572a05fd9b5f43d8a8013dd387c1bb",
+      "lang": "cn",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:56:51.059Z"
+    },
+    "audio/Palais_d_Amalienborg_ja.mp3": {
+      "hash": "c2f925213a5f2544987f00041268b9195f2f6d3f",
+      "lang": "ja",
+      "label": "POI parcours: Palais d’Amalienborg",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:56:56.989Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_fr.mp3": {
+      "hash": "07e3ef710094a1eb947388c6a0786db29087db54",
+      "lang": "fr",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T15:57:18.135Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_nl.mp3": {
+      "hash": "b55e7939a813b95cdea9a728b7c4a7583ca5c7b6",
+      "lang": "nl",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T15:57:43.453Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_en.mp3": {
+      "hash": "723d4ad9a7c5fcc6d9ad57546d991003d63123c9",
+      "lang": "en",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T15:58:06.741Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_de.mp3": {
+      "hash": "9a6f8f600fea479053d96aac6763804154fa4432",
+      "lang": "de",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T15:58:34.762Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_it.mp3": {
+      "hash": "42a1b3298347dabfeba969c83f07da8296938fdf",
+      "lang": "it",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T15:59:12.095Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_es.mp3": {
+      "hash": "110a1e352030119fb2457136f943a00b3961b290",
+      "lang": "es",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T15:59:35.683Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_pl.mp3": {
+      "hash": "ca60cb08a60b45cb2a0228483a1f737121a4476d",
+      "lang": "pl",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T15:59:40.730Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_ar.mp3": {
+      "hash": "800d0040001aca7ba6208b4561ce9ab9ca49ef73",
+      "lang": "ar",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T15:59:46.212Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_cn.mp3": {
+      "hash": "bb9680fd79752f383e8a330ec5cf963249af6799",
+      "lang": "cn",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T15:59:51.188Z"
+    },
+    "audio/Eglise_de_Marbre_Marmorkirken_ja.mp3": {
+      "hash": "642f24d5bd2d4aa18ea90d18bbd8333ef65bc00f",
+      "lang": "ja",
+      "label": "POI parcours: Église de Marbre — Marmorkirken",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T15:59:57.098Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_fr.mp3": {
+      "hash": "19ac09a2b43a5a7953da88315379ca9eee4af10c",
+      "lang": "fr",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:00:20.655Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_nl.mp3": {
+      "hash": "9b32a795e13624b6b5cdc2ecc6c9d9b943b6d566",
+      "lang": "nl",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:00:47.869Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_en.mp3": {
+      "hash": "79d6f0b62115a94871136e5ff85cceae3661c25a",
+      "lang": "en",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:01:11.541Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_de.mp3": {
+      "hash": "778c4944f7e696398e466d5854df1324f64c378b",
+      "lang": "de",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:01:42.229Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_it.mp3": {
+      "hash": "4f2855328eef327538ff7874c49a8ac3ffa8e129",
+      "lang": "it",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:02:24.520Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_es.mp3": {
+      "hash": "6d61a4421eeddf1634c10289351815807f88a7da",
+      "lang": "es",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:02:50.567Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_pl.mp3": {
+      "hash": "34802beb1e8c14819f702cd031cd27448c641796",
+      "lang": "pl",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:02:56.183Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_ar.mp3": {
+      "hash": "8e05f4f78bb8863512af5d120e9a8a9d431eccf7",
+      "lang": "ar",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:03:01.765Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_cn.mp3": {
+      "hash": "ff6e76e620691b50985ff35582d74a8c4810230e",
+      "lang": "cn",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:03:07.161Z"
+    },
+    "audio/B_rsen_et_sa_fleche_aux_dragons_ja.mp3": {
+      "hash": "49674db4869ef21b9cafe1e91dd91f8c604ece09",
+      "lang": "ja",
+      "label": "POI parcours: Børsen et sa flèche aux dragons",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:03:13.793Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_fr.mp3": {
+      "hash": "fedfc423b2066647bb30310759dcf7faac6a6c0e",
+      "lang": "fr",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:03:37.903Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_nl.mp3": {
+      "hash": "ebda284c8902365fbdb3d56b40a6e769df2a8448",
+      "lang": "nl",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:04:05.706Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_en.mp3": {
+      "hash": "03a6a47c5319cae0abcc76f42bf1ecd4fbb19d2c",
+      "lang": "en",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:04:31.143Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_de.mp3": {
+      "hash": "939390298f6563ba2ba16db890fc807f7cf7fad6",
+      "lang": "de",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:05:02.405Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_it.mp3": {
+      "hash": "26e68aa4308acee6fe2446b568934c0195cc160e",
+      "lang": "it",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:05:41.821Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_es.mp3": {
+      "hash": "2b079724878febe903d0fbaf53f98ac269b9fa7d",
+      "lang": "es",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:06:06.958Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_pl.mp3": {
+      "hash": "b477ba8c129be9e04890c564e25ba3d954b25db5",
+      "lang": "pl",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:06:12.323Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_ar.mp3": {
+      "hash": "153e22c471a31a6ddcfe628f672dfe684bfef848",
+      "lang": "ar",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:06:17.922Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_cn.mp3": {
+      "hash": "4d9b2b58f0edbef3f8e828a3065373e7b14d7742",
+      "lang": "cn",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:06:23.514Z"
+    },
+    "audio/Diamant_Noir_Bibliotheque_royale_ja.mp3": {
+      "hash": "2838ee4d6355a037f6ae59c84961035a85431dec",
+      "lang": "ja",
+      "label": "POI parcours: Diamant Noir — Bibliothèque royale",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:06:30.491Z"
+    },
+    "audio/La_Petite_Sirene_fr.mp3": {
+      "hash": "e236745c3c8de8c7cdf808423e529051a59fc9ef",
+      "lang": "fr",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:06:53.812Z"
+    },
+    "audio/La_Petite_Sirene_nl.mp3": {
+      "hash": "b23dedfd170ec947e46699faba2ace7933c67cba",
+      "lang": "nl",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:07:20.638Z"
+    },
+    "audio/La_Petite_Sirene_en.mp3": {
+      "hash": "73208873af8f7d3376ffabb0f4378ce1a435c877",
+      "lang": "en",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:07:44.735Z"
+    },
+    "audio/La_Petite_Sirene_de.mp3": {
+      "hash": "0b57ed6e991a43961e26ea04d872aa2a106fe41b",
+      "lang": "de",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:08:15.980Z"
+    },
+    "audio/La_Petite_Sirene_it.mp3": {
+      "hash": "6705ca82f694064767f2fd0017edb9708e6d6c39",
+      "lang": "it",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:08:56.212Z"
+    },
+    "audio/La_Petite_Sirene_es.mp3": {
+      "hash": "fc0d70871de3b97cbdaf951b78d9006709f8e0ce",
+      "lang": "es",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:09:20.904Z"
+    },
+    "audio/La_Petite_Sirene_pl.mp3": {
+      "hash": "b6d0b0f16d9a5b244d4603d2cd4e63ffd812860c",
+      "lang": "pl",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:09:26.267Z"
+    },
+    "audio/La_Petite_Sirene_ar.mp3": {
+      "hash": "162c9de85a5dc49cdf8662f8c834d698b7130400",
+      "lang": "ar",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:09:31.816Z"
+    },
+    "audio/La_Petite_Sirene_cn.mp3": {
+      "hash": "6be61b268bc32cee6ff1f7cfc3c87776f1f75951",
+      "lang": "cn",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:09:37.436Z"
+    },
+    "audio/La_Petite_Sirene_ja.mp3": {
+      "hash": "4416967e30fe85f0bb788a2483db9d02e92ee40f",
+      "lang": "ja",
+      "label": "POI parcours: La Petite Sirène",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:09:44.228Z"
+    },
+    "audio/Kastellet_fr.mp3": {
+      "hash": "9b843bbc51a9f13b4ed80d4113f78eea443fe6b7",
+      "lang": "fr",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:10:07.344Z"
+    },
+    "audio/Kastellet_nl.mp3": {
+      "hash": "d8e61db4c133bf3aaf346abfbad8d151ada003f9",
+      "lang": "nl",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:10:32.858Z"
+    },
+    "audio/Kastellet_en.mp3": {
+      "hash": "a35443f15cd86ad2a20f8abc3155bede35de9f9e",
+      "lang": "en",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:10:55.707Z"
+    },
+    "audio/Kastellet_de.mp3": {
+      "hash": "fe401156c1e828b0084c1863c7e7e323500ee46c",
+      "lang": "de",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:11:25.755Z"
+    },
+    "audio/Kastellet_it.mp3": {
+      "hash": "02f539d003a35d30fa3ea1c0f01544fe5ebb98fd",
+      "lang": "it",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:12:04.767Z"
+    },
+    "audio/Kastellet_es.mp3": {
+      "hash": "64bdd2475819bc74eefb3f02118197cb69b59314",
+      "lang": "es",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:12:29.534Z"
+    },
+    "audio/Kastellet_pl.mp3": {
+      "hash": "5ab489b538281b59d64f1f51ee11eb2f49bf0e71",
+      "lang": "pl",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:12:34.601Z"
+    },
+    "audio/Kastellet_ar.mp3": {
+      "hash": "18f4d6a131c3a30de79499157e3b2427a1e6e4b0",
+      "lang": "ar",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:12:40.454Z"
+    },
+    "audio/Kastellet_cn.mp3": {
+      "hash": "bdeb123a0f06d5e76b017705e1bedb0d79753e46",
+      "lang": "cn",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:12:46.030Z"
+    },
+    "audio/Kastellet_ja.mp3": {
+      "hash": "69ccb366cc46d3e8949cb419fcd9d710229d97a1",
+      "lang": "ja",
+      "label": "POI parcours: Kastellet",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:12:52.005Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_fr.mp3": {
+      "hash": "824d9ae4b957b95a0a0c6bb8e449b18081bde0ed",
+      "lang": "fr",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:13:13.535Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_nl.mp3": {
+      "hash": "97136fd4ad1e58c6d02364d6a885378b4d48b35d",
+      "lang": "nl",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:13:37.601Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_en.mp3": {
+      "hash": "7bac26bb4be557a987107288b0e9ff8241bf27d5",
+      "lang": "en",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:14:00.119Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_de.mp3": {
+      "hash": "227dfbd9233e5b8c54d49afe303fdaca4ad5843a",
+      "lang": "de",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:14:27.171Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_it.mp3": {
+      "hash": "6da13235b7461d8000db5aeeb6855dd8a122d9fd",
+      "lang": "it",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:15:04.525Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_es.mp3": {
+      "hash": "729dbd0aa8777cdbdeeaec6672caa70899f92c83",
+      "lang": "es",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:15:27.138Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_pl.mp3": {
+      "hash": "68e4cf11e29dbfcdff35c0ced4d93a8abe867138",
+      "lang": "pl",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:15:31.901Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_ar.mp3": {
+      "hash": "09b018d1a86da0c404db8423e7f778e8a653ea36",
+      "lang": "ar",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:15:37.069Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_cn.mp3": {
+      "hash": "4cb7d4fc63ae9ab95b691c2fa5698244ef568960",
+      "lang": "cn",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:15:42.623Z"
+    },
+    "audio/Fontaine_de_Gefion_et_eglise_Saint_Alban_ja.mp3": {
+      "hash": "87c3ecd05798c094fef55780aeb63cd276d240cb",
+      "lang": "ja",
+      "label": "POI parcours: Fontaine de Gefion et église Saint-Alban",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:15:48.672Z"
+    },
+    "audio/Opera_de_Copenhague_fr.mp3": {
+      "hash": "5dea824fa578299d5358cf0ee01e57cd846d524b",
+      "lang": "fr",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:16:11.637Z"
+    },
+    "audio/Opera_de_Copenhague_nl.mp3": {
+      "hash": "98b6c268d6566a7c505b30f32811da878cc63ed3",
+      "lang": "nl",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:16:37.270Z"
+    },
+    "audio/Opera_de_Copenhague_en.mp3": {
+      "hash": "6f9270ef1e6f0793f79afcf560a380ee8e822a15",
+      "lang": "en",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:17:00.773Z"
+    },
+    "audio/Opera_de_Copenhague_de.mp3": {
+      "hash": "14483ed1885c5b9c7fdb68eeeeb5f0b54df30699",
+      "lang": "de",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:17:29.686Z"
+    },
+    "audio/Opera_de_Copenhague_it.mp3": {
+      "hash": "dc0860442d275b720620cc7b78a6c5ff28d505d9",
+      "lang": "it",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:18:08.094Z"
+    },
+    "audio/Opera_de_Copenhague_es.mp3": {
+      "hash": "e4f30cfa20a8ee0d879013302f257c8c12764ab8",
+      "lang": "es",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:18:31.711Z"
+    },
+    "audio/Opera_de_Copenhague_pl.mp3": {
+      "hash": "7ec551c960af6c7f0792b7267b275187486a88dc",
+      "lang": "pl",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:18:37.022Z"
+    },
+    "audio/Opera_de_Copenhague_ar.mp3": {
+      "hash": "76f3dcf8c84eadf286ff5d302636cd37c13553ce",
+      "lang": "ar",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:18:42.226Z"
+    },
+    "audio/Opera_de_Copenhague_cn.mp3": {
+      "hash": "213685d8e07a8c8bd9792f56194fd951eefc2ff5",
+      "lang": "cn",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:18:47.714Z"
+    },
+    "audio/Opera_de_Copenhague_ja.mp3": {
+      "hash": "c37de7dbbe84ba49a2f9645ddb1cef3133b283f7",
+      "lang": "ja",
+      "label": "POI parcours: Opéra de Copenhague",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:18:53.814Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_fr.mp3": {
+      "hash": "f9ddd9f7d414aec54d313da395181d06b9768254",
+      "lang": "fr",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:19:16.041Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_nl.mp3": {
+      "hash": "7173b92549e2617d8bdbd22cd24804ef8b0f764e",
+      "lang": "nl",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:19:41.777Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_en.mp3": {
+      "hash": "06801be65e8533b73b746b284c4655b6e9f3b276",
+      "lang": "en",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:20:04.549Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_de.mp3": {
+      "hash": "e21ce5d91133a519cc83416e06bc537168401c00",
+      "lang": "de",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:20:32.410Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_it.mp3": {
+      "hash": "58973b2000f074e77601b99b42a693c70a5e478e",
+      "lang": "it",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:21:11.756Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_es.mp3": {
+      "hash": "fe26f9681de665ca0055f386f017fcffa9ab120b",
+      "lang": "es",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:21:35.473Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_pl.mp3": {
+      "hash": "6bed47ccb6ebcb36109c8dce395843b1ea3e583e",
+      "lang": "pl",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:21:40.782Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_ar.mp3": {
+      "hash": "753732fd39648a7da312e506e5819cc1eb22562b",
+      "lang": "ar",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:21:46.243Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_cn.mp3": {
+      "hash": "cb6a4344609a8eb933a9a42fc2bfc3cb40c47bb0",
+      "lang": "cn",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:21:51.308Z"
+    },
+    "audio/Eglise_de_Notre_Sauveur_Vor_Frelsers_Kirke_ja.mp3": {
+      "hash": "fbf36d67a846fc1fb44ea36c80ed0ecde062159b",
+      "lang": "ja",
+      "label": "POI parcours: Église de Notre-Sauveur — Vor Frelsers Kirke",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:21:57.496Z"
+    },
+    "audio/Freetown_Christiania_fr.mp3": {
+      "hash": "7faaa12dde975eea1bf43d4a03b4e45abbe97170",
+      "lang": "fr",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Remi",
+      "generatedAt": "2026-07-28T16:22:21.321Z"
+    },
+    "audio/Freetown_Christiania_nl.mp3": {
+      "hash": "2cfbe0ccaf7f151fcd46cf19c43d36342f8d07e2",
+      "lang": "nl",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Laura",
+      "generatedAt": "2026-07-28T16:22:49.747Z"
+    },
+    "audio/Freetown_Christiania_en.mp3": {
+      "hash": "b2b3cc5e99fe94c6c1646b38ba8f55261747bfc5",
+      "lang": "en",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Joanna",
+      "generatedAt": "2026-07-28T16:23:14.596Z"
+    },
+    "audio/Freetown_Christiania_de.mp3": {
+      "hash": "3802cb1aa99b994397eed40fb3aa4ffd34a15593",
+      "lang": "de",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Vicki",
+      "generatedAt": "2026-07-28T16:23:44.947Z"
+    },
+    "audio/Freetown_Christiania_it.mp3": {
+      "hash": "bac3fb97a73ae36914b0a329ca50c65f05e6fccd",
+      "lang": "it",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Beatrice",
+      "generatedAt": "2026-07-28T16:24:26.397Z"
+    },
+    "audio/Freetown_Christiania_es.mp3": {
+      "hash": "0f39ec655bd8a5b8ef20a8f6f934f3aa3d314b5c",
+      "lang": "es",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-generative",
+      "voice": "Lucia",
+      "generatedAt": "2026-07-28T16:24:52.924Z"
+    },
+    "audio/Freetown_Christiania_pl.mp3": {
+      "hash": "1942195b23725618a950ce0ed77456ffb46a46e7",
+      "lang": "pl",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Ola",
+      "generatedAt": "2026-07-28T16:24:59.159Z"
+    },
+    "audio/Freetown_Christiania_ar.mp3": {
+      "hash": "629ab493efa49bda8b0a1c3402ffeee51a0f5137",
+      "lang": "ar",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Hala",
+      "generatedAt": "2026-07-28T16:25:04.895Z"
+    },
+    "audio/Freetown_Christiania_cn.mp3": {
+      "hash": "f63a19e120f97cc520a5b237fa136e36eddff6ef",
+      "lang": "cn",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Zhiyu",
+      "generatedAt": "2026-07-28T16:25:10.120Z"
+    },
+    "audio/Freetown_Christiania_ja.mp3": {
+      "hash": "f4d8c7f4639f8349c5d81b48d249bf27ecf20b9b",
+      "lang": "ja",
+      "label": "POI parcours: Freetown Christiania",
+      "provider": "polly",
+      "model": "polly-neural",
+      "voice": "Takumi",
+      "generatedAt": "2026-07-28T16:25:16.906Z"
+    }
+  },
+  "langRegenRequired": {},
+  "langAudioSyncedAt": {
+    "fr": "2026-07-28T16:25:16.920Z",
+    "nl": "2026-07-28T16:25:16.920Z",
+    "en": "2026-07-28T16:25:16.920Z",
+    "de": "2026-07-28T16:25:16.920Z",
+    "it": "2026-07-28T16:25:16.920Z",
+    "es": "2026-07-28T16:25:16.920Z",
+    "pl": "2026-07-28T16:25:16.920Z",
+    "ar": "2026-07-28T16:25:16.920Z",
+    "cn": "2026-07-28T16:25:16.920Z",
+    "ja": "2026-07-28T16:25:16.920Z"
+  }
+}

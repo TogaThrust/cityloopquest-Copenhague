@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quartiers et ambiances - CityLoop Quest Copenhague</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="api-base.js"></script>
+  <script src="js/access-control.js"></script>
+  <script src="translations/translationManager.js"></script>
+  <script src="translations/languageSelector.js"></script>
+  <script src="js/access-guard.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    h1 { margin-bottom: 30px; }
+    .generated-gallery { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); max-width: 900px; margin: 0 auto 24px; }
+    .generated-gallery img { width: 100%; border-radius: 12px; }
+    .culture-video { width: min(760px, 92vw); margin: 0 auto 24px; }
+    .culture-video__frame { position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #111; }
+    .culture-video__frame iframe,
+    .culture-video__frame video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .culture-video__frame video { object-fit: contain; background: #000; }
+    .info-text { margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #c8102e; color: #333; max-width: 760px; margin-left: auto; margin-right: auto; text-align: left; line-height: 1.6; }
+    .culture-inline-photo { max-width: 320px; margin: 14px auto 22px; text-align: center; }
+    .culture-inline-photo img { width: 100%; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+    .culture-inline-photo figcaption { font-size: 0.9rem; color: #555; margin-top: 6px; font-style: italic; }
+  </style>
+</head>
+<body>
+<header class="main-header">
+  <div class="header-content">
+    <img src="images/icone titre0.png" alt="Icone 0" class="header-img left">
+    <h1>CityLoop Quest Copenhague</h1>
+    <img src="images/icone titre1.png" alt="Icone 1" class="header-img right">
+  </div>
+</header>
+<h1 data-culture-page-title>Quartiers et ambiances</h1>
+<section class="generated-gallery"><figure><img src="images/culture/quartiers-et-ambiances.jpg" alt="Nørrebro street" /></figure></section>
+<section class="culture-video"><div class="culture-video__frame"><iframe src="https://www.youtube.com/embed/-S5V17rvO5o" title="Vidéo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></section>
+<div class="info-text"><p>Indre By concentre les institutions, les rues commerçantes et les traces de la ville fortifiée. Strøget attire les foules, mais quelques détours suffisent pour retrouver cours, librairies et places plus calmes. Slotsholmen forme le noyau politique ; Frederiksstaden, autour d’Amalienborg, offre une composition aristocratique ; Nyhavn ajoute son décor portuaire devenu très touristique.</p>
+<p>Vesterbro fut longtemps un quartier ouvrier, associé aux abattoirs, aux hôtels bon marché et à la prostitution près de la gare. Sa transformation a produit cafés, galeries et restaurants dans le Meatpacking District. L’ancienne rugosité n’a pas totalement disparu, et le quartier reste un bon exemple des tensions entre rénovation, hausse des loyers et mémoire du travail.</p>
+<figure class="culture-inline-photo"><img src="images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg" alt="Les anciennes halles du Meatpacking District" loading="lazy" /><figcaption>Les anciennes halles du Meatpacking District</figcaption></figure>
+<p>Nørrebro est plus dense, jeune et multiculturel. Assistens Kirkegård, Jægersborggade, Blågårds Plads et Superkilen offrent des ambiances très différentes. Épiceries moyen-orientales, boulangeries nouvelles, ateliers et bars partagent les mêmes rues. Les manifestations et débats sur l’intégration ont aussi marqué son histoire récente.</p>
+<p>Christianshavn se reconnaît à ses canaux réguliers, hérités du plan de Christian IV, et à ses maisons de marchands. Christiania occupe depuis 1971 d’anciennes casernes au-delà des remparts. Amager, longtemps territoire de maraîchers puis d’industries, combine aujourd’hui plage, quartiers contemporains d’Ørestad et secteurs populaires autour d’Amagerbrogade.</p>
+<figure class="culture-inline-photo"><img src="images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg" alt="Canal de Christianshavn" loading="lazy" /><figcaption>Canal de Christianshavn</figcaption></figure>
+<p>Østerbro possède une réputation plus résidentielle, avec larges avenues, parcs, stade et proximité de la mer. Frederiksberg, commune indépendante enclavée dans Copenhague, offre jardins, villas et rues commerçantes. La meilleure façon de sentir ces différences consiste à parcourir une rue ordinaire, entrer dans une boulangerie et observer le rythme des vélos : les quartiers se définissent moins par une frontière nette que par la manière dont on y habite.</p></div>
+<a class="back-button" href="culture.html" data-translate="back_button">BACK</a>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  window.languageSelector?.createSelector?.();
+  window.languageSelector?.updateSelectorValue?.();
+});
+</script>
+<script>
+window.CLQ_PAGE_I18N = {"title":{"fr":"Quartiers et ambiances","nl":"Wijken en sferen","en":"Neighborhoods and Atmospheres","de":"Stadtviertel und Atmosphäre","it":"Quartieri e atmosfere","es":"Barrios y ambientes","pl":"Dzielnice i atmosfera","ar":"الأحياء والأجواء","cn":"街区与氛围","ja":"地区と雰囲気"},"content":{"fr":"Indre By concentre les institutions, les rues commerçantes et les traces de la ville fortifiée. Strøget attire les foules, mais quelques détours suffisent pour retrouver cours, librairies et places plus calmes. Slotsholmen forme le noyau politique ; Frederiksstaden, autour d’Amalienborg, offre une composition aristocratique ; Nyhavn ajoute son décor portuaire devenu très touristique.\n\nVesterbro fut longtemps un quartier ouvrier, associé aux abattoirs, aux hôtels bon marché et à la prostitution près de la gare. Sa transformation a produit cafés, galeries et restaurants dans le Meatpacking District. L’ancienne rugosité n’a pas totalement disparu, et le quartier reste un bon exemple des tensions entre rénovation, hausse des loyers et mémoire du travail.\n\n![Les anciennes halles du Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro est plus dense, jeune et multiculturel. Assistens Kirkegård, Jægersborggade, Blågårds Plads et Superkilen offrent des ambiances très différentes. Épiceries moyen-orientales, boulangeries nouvelles, ateliers et bars partagent les mêmes rues. Les manifestations et débats sur l’intégration ont aussi marqué son histoire récente.\n\nChristianshavn se reconnaît à ses canaux réguliers, hérités du plan de Christian IV, et à ses maisons de marchands. Christiania occupe depuis 1971 d’anciennes casernes au-delà des remparts. Amager, longtemps territoire de maraîchers puis d’industries, combine aujourd’hui plage, quartiers contemporains d’Ørestad et secteurs populaires autour d’Amagerbrogade.\n\n![Canal de Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro possède une réputation plus résidentielle, avec larges avenues, parcs, stade et proximité de la mer. Frederiksberg, commune indépendante enclavée dans Copenhague, offre jardins, villas et rues commerçantes. La meilleure façon de sentir ces différences consiste à parcourir une rue ordinaire, entrer dans une boulangerie et observer le rythme des vélos : les quartiers se définissent moins par une frontière nette que par la manière dont on y habite.","nl":"Indre By concentreert de instellingen, de winkelstraten en de sporen van de versterkte stad. Strøget trekt de massa's aan, maar enkele omwegen volstaan om binnenplaatsen, boekhandels en rustigere pleinen terug te vinden. Slotsholmen vormt de politieke kern; Frederiksstaden, rond Amalienborg, biedt een aristocratische compositie; Nyhavn voegt zijn havendecor toe, dat inmiddels zeer toeristisch is.\n\nVesterbro was lange tijd een arbeiderswijk, geassocieerd met de slachthuizen, goedkope hotels en prostitutie bij het station. De transformatie ervan heeft cafés, galerieën en restaurants in het Meatpacking District voortgebracht. De vroegere ruigheid is niet helemaal verdwenen, en de wijk blijft een goed voorbeeld van de spanningen tussen vernieuwing, stijgende huren en het geheugen van arbeid.\n\n![De oude hallen van het Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro is dichter, jonger en multicultureler. Assistens Kirkegård, Jægersborggade, Blågårds Plads en Superkilen bieden zeer uiteenlopende sferen. Midden-Oosterse kruidenierszaken, nieuwe bakkerijen, ateliers en bars delen dezelfde straten. Demonstraties en debatten over integratie hebben ook zijn recente geschiedenis getekend.\n\nChristianshavn is te herkennen aan de regelmatige kanalen, geërfd van het plan van Christian IV, en aan zijn koopmanshuizen. Christiania bezet sinds 1971 voormalige kazernes voorbij de vestingwerken. Amager, lang gebied van groentetelers en vervolgens van industrie, combineert vandaag strand, hedendaagse wijken van Ørestad en volksbuurten rond Amagerbrogade.\n\n![Kanaal van Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro heeft een meer residentiële reputatie, met brede lanen, parken, een stadion en de nabijheid van de zee. Frederiksberg, een zelfstandige gemeente ingesloten in Kopenhagen, biedt tuinen, villa's en winkelstraten. De beste manier om deze verschillen te voelen, is een gewone straat te bewandelen, een bakkerij binnen te gaan en het ritme van de fietsen te observeren: de wijken worden minder bepaald door een scherpe grens dan door de manier waarop men er woont.","en":"Indre By brings together the institutions, shopping streets, and traces of the fortified city. Strøget draws the crowds, but a few detours are enough to find courtyards, bookshops, and quieter squares. Slotsholmen forms the political core; Frederiksstaden, around Amalienborg, offers an aristocratic composition; Nyhavn adds its harbor setting, now very touristy.\n\nVesterbro was long a working-class district, associated with the slaughterhouses, budget hotels, and prostitution near the station. Its transformation has brought cafés, galleries, and restaurants to the Meatpacking District. The old roughness has not entirely disappeared, and the district remains a good example of the tensions between renewal, rising rents, and the memory of labor.\n\n![Los antiguos pabellones del mercado del Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro is denser, younger, and more multicultural. Assistens Kirkegård, Jægersborggade, Blågårds Plads, and Superkilen offer very different atmospheres. Middle Eastern grocery stores, new bakeries, workshops, and bars share the same streets. Demonstrations and debates about integration have also marked its recent history.\n\nChristianshavn is recognized by its regular canals, inherited from Christian IV’s plan, and by its merchants’ houses. Since 1971, Christiania has occupied former barracks beyond the ramparts. Amager, long a territory of market gardeners and then industry, now combines a beach, the contemporary neighborhoods of Ørestad, and working-class districts around Amagerbrogade.\n\n![Canal de Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro has a more residential reputation, with broad avenues, parks, a stadium, and proximity to the sea. Frederiksberg, an independent municipality enclosed within Copenhagen, offers gardens, villas, and shopping streets. The best way to feel these differences is to walk down an ordinary street, step into a bakery, and watch the rhythm of the bicycles: neighborhoods are defined less by a clear boundary than by the way people live in them.","de":"Indre By konzentriert die Institutionen, die Einkaufsstraßen und die Spuren der befestigten Stadt. Strøget zieht die Massen an, doch wenige Abzweigungen genügen, um Höfe, Buchhandlungen und ruhigere Plätze wiederzufinden. Slotsholmen bildet den politischen Kern; Frederiksstaden rund um Schloss Amalienborg bietet eine aristokratische Komposition; Nyhavn ergänzt sein Hafenbild, das heute sehr touristisch geworden ist.\n\nVesterbro war lange ein Arbeiterviertel, verbunden mit den Schlachthöfen, billigen Hotels und der Prostitution nahe dem Bahnhof. Sein Wandel hat Cafés, Galerien und Restaurants im Meatpacking District hervorgebracht. Die frühere Rauheit ist nicht völlig verschwunden, und das Viertel bleibt ein gutes Beispiel für die Spannungen zwischen Erneuerung, steigenden Mieten und dem Gedächtnis der Arbeit.\n\n![Die alten Hallen des Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro ist dichter, jünger und multikultureller. Der Assistens Kirkegård, die Jægersborggade, der Blågårds Plads und Superkilen bieten sehr unterschiedliche Atmosphären. Lebensmittelgeschäfte aus dem Nahen Osten, neue Bäckereien, Werkstätten und Bars teilen sich dieselben Straßen. Demonstrationen und Debatten über Integration haben auch seine jüngere Geschichte geprägt.\n\nChristianshavn erkennt man an seinen regelmäßigen Kanälen, die vom Plan Christian IV. stammen, und an seinen Kaufmannshäusern. Christiania belegt seit 1971 ehemalige Kasernen jenseits der Befestigungsanlagen. Amager, lange Zeit erst Gärtnereigebiet, dann Industriegebiet, verbindet heute Strand, moderne Stadtviertel von Ørestad und volkstümliche Bereiche rund um die Amagerbrogade.\n\n![Kanal von Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro hat einen eher wohnlichen Ruf, mit breiten Alleen, Parks, Stadion und der Nähe zum Meer. Frederiksberg, eine eigenständige Gemeinde, die von Kopenhagen umschlossen ist, bietet Gärten, Villen und Einkaufsstraßen. Der beste Weg, diese Unterschiede zu spüren, besteht darin, eine gewöhnliche Straße entlangzugehen, eine Bäckerei zu betreten und den Rhythmus der Fahrräder zu beobachten: Viertel definieren sich weniger durch eine klare Grenze als durch die Art und Weise, wie man dort lebt.","it":"Indre By concentra le istituzioni, le strade commerciali e le tracce della città fortificata. Strøget attira le folle, ma bastano poche deviazioni per ritrovare cortili, librerie e piazze più tranquille. Slotsholmen forma il nucleo politico; Frederiksstaden, attorno ad Amalienborg, offre una composizione aristocratica; Nyhavn aggiunge il suo scenario portuale, ormai molto turistico.\n\nVesterbro fu a lungo un quartiere operaio, associato ai macelli, agli hotel economici e alla prostituzione vicino alla stazione. La sua trasformazione ha portato caffè, gallerie e ristoranti nel Meatpacking District. L’antico aspetto ruvido non è scomparso del tutto, e il quartiere resta un buon esempio delle tensioni tra riqualificazione, aumento degli affitti e memoria del lavoro.\n\n![Le antiche hall del Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro è più denso, giovane e multiculturale. Assistens Kirkegård, Jægersborggade, Blågårds Plads e Superkilen offrono atmosfere molto diverse. Negozi di alimentari mediorientali, nuove panetterie, atelier e bar condividono le stesse strade. Anche le manifestazioni e i dibattiti sull’integrazione hanno segnato la sua storia recente.\n\nChristianshavn si riconosce per i suoi canali regolari, eredità del piano di Christian IV, e per le sue case di mercanti. Christiania occupa dal 1971 le antiche caserme oltre i bastioni. Amager, a lungo territorio di orticoltori poi di industrie, combina oggi spiaggia, quartieri contemporanei di Ørestad e zone popolari attorno ad Amagerbrogade.\n\n![Canale di Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro ha una reputazione più residenziale, con ampi viali, parchi, stadio e vicinanza al mare. Frederiksberg, comune indipendente inglobato nella città di Copenaghen, offre giardini, ville e strade commerciali. Il modo migliore per percepire queste differenze consiste nel percorrere una strada ordinaria, entrare in una panetteria e osservare il ritmo delle biciclette: i quartieri si definiscono meno da un confine netto che dal modo in cui vi si vive.","es":"Indre By concentra las instituciones, las calles comerciales y las huellas de la ciudad fortificada. Strøget atrae a las multitudes, pero bastan algunos desvíos para volver a encontrar patios, librerías y plazas más tranquilas. Slotsholmen forma el núcleo político; Frederiksstaden, alrededor de Amalienborg, ofrece una composición aristocrática; Nyhavn añade su decorado portuario, convertido en un lugar muy turístico.\n\nVesterbro fue durante mucho tiempo un barrio obrero, asociado a los mataderos, a los hoteles baratos y a la prostitución cerca de la estación. Su transformación ha dado lugar a cafeterías, galerías y restaurantes en el Meatpacking District. La antigua rudeza no ha desaparecido del todo, y el barrio sigue siendo un buen ejemplo de las tensiones entre renovación, subida de los alquileres y memoria del trabajo.\n\n![Los antiguos pabellones del Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro es más denso, joven y multicultural. Assistens Kirkegård, Jægersborggade, Blågårds Plads y Superkilen ofrecen ambientes muy diferentes. Tiendas de alimentación de Oriente Medio, panaderías nuevas, talleres y bares comparten las mismas calles. Las manifestaciones y los debates sobre la integración también han marcado su historia reciente.\n\nChristianshavn se reconoce por sus canales regulares, heredados del plan de Christian IV, y por sus casas de comerciantes. Christiania ocupa desde 1971 antiguos cuarteles al otro lado de las murallas. Amager, durante mucho tiempo territorio de hortelanos y luego de industrias, combina hoy playa, barrios contemporáneos de Ørestad y zonas populares alrededor de Amagerbrogade.\n\n![Canal de Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro goza de una reputación más residencial, con amplias avenidas, parques, estadio y cercanía al mar. Frederiksberg, municipio independiente enclavado en Copenhague, ofrece jardines, villas y calles comerciales. La mejor manera de percibir estas diferencias consiste en recorrer una calle corriente, entrar en una panadería y observar el ritmo de las bicicletas: los barrios se definen menos por una frontera nítida que por la manera en que se vive en ellos.","pl":"Indre By skupia instytucje, ulice handlowe i ślady ufortyfikowanego miasta. Strøget przyciąga tłumy, ale wystarczy kilka skrętów, by odnaleźć dziedzińce, księgarnie i spokojniejsze place. Slotsholmen stanowi polityczne centrum; Frederiksstaden, wokół Amalienborga, oferuje arystokratyczną kompozycję; Nyhavn dodaje portową scenerię, która stała się bardzo turystyczna.\n\nVesterbro przez długi czas był dzielnicą robotniczą, kojarzoną z rzeźniami, tanimi hotelami i prostytucją w pobliżu dworca. Jego przemiana przyniosła kawiarnie, galerie i restauracje w Meatpacking District. Dawna szorstkość nie zniknęła całkowicie, a dzielnica pozostaje dobrym przykładem napięć między odnową, wzrostem czynszów i pamięcią o pracy.\n\n![Dawne hale targowe dzielnicy Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro jest gęstsze, młodsze i bardziej wielokulturowe. Assistens Kirkegård, Jægersborggade, Blågårds Plads i Superkilen oferują bardzo różne nastroje. Sklepy spożywcze z Bliskiego Wschodu, nowe piekarnie, pracownie i bary dzielą te same ulice. Manifestacje i debaty o integracji również naznaczyły jego najnowszą historię.\n\nChristianshavn można rozpoznać po regularnych kanałach, odziedziczonych po planie Christiana IV, oraz po domach kupieckich. Christiania od 1971 roku zajmuje dawne koszary za murami obronnymi. Amager, długo będący obszarem ogrodników warzywnych, a potem przemysłu, dziś łączy plażę, nowoczesne dzielnice Ørestad i robotnicze okolice wokół Amagerbrogade.\n\n![Kanał Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro ma bardziej mieszkaniową reputację, z szerokimi alejami, parkami, stadionem i bliskością morza. Frederiksberg, samodzielna gmina otoczona przez Kopenhagę, oferuje ogrody, wille i ulice handlowe. Najlepszym sposobem, by poczuć te różnice, jest przejście zwykłą ulicą, wejście do piekarni i obserwowanie rytmu rowerów: dzielnice określa się tu mniej wyraźną granicą niż sposobem, w jaki się w nich mieszka.","ar":"تُركّز إندره باي المؤسسات، والشوارع التجارية، وآثار المدينة المُحصَّنة. يجتذب سترُوغيت الحشود، لكن يكفي أن تنحرف بضع خطوات لتجد الساحات الداخلية، والمكتبات، والساحات الأكثر هدوءًا. تشكّل سلوتهولمن النواة السياسية؛ وتقدّم فريدريكستادن، حول أماليينبورغ، تركيبة أرستقراطية؛ فيما يضيف نيهافن مشهده المينائي الذي صار شديد الجاذبية للسياح.\n\nكانت فيستر برو طوال زمن طويل حيًّا عماليًا، مرتبطًا بالمسالخ، والفنادق الرخيصة، والدعارة قرب المحطة. وقد أفضى تحوّله إلى ظهور المقاهي، والمعارض، والمطاعم في حيّ ميتباكينغ ديستريكت. ولم تختفِ الخشونة القديمة تمامًا، ولا يزال الحي مثالًا جيدًا على التوترات بين التجديد، وارتفاع الإيجارات، وذاكرة العمل.\n\n![المباني القديمة في حيّ ميتباكينغ ديستريكت](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nيتميّز نوربرو بكثافة أكبر، وبكونه حيًّا شابًا ومتعدد الثقافات. وتوفّر أسيستنس كيركغورد، وياغرسبورغغاده، وبلاوغوردس بلادس، وسوبركيلين أجواءً مختلفة جدًا. وتتقاسم الشوارع نفسها بقالات الشرق الأوسط، والمخابز الجديدة، والورش، والحانات. كما تركت التظاهرات والنقاشات حول الاندماج بصمتها على تاريخه الحديث.\n\nيُعرَف كريستيانشاون بقنواته المنتظمة، الموروثة من مخطط كريستيان الرابع، وببيوت التجار فيه. ومنذ عام 1971 تحتلّ كريستيانيا ثكناتٍ عسكرية قديمة خلف الأسوار. أما أماجر، التي كانت طويلًا أرضًا لمزارعي الخضار ثم للصناعات، فتجمع اليوم بين الشاطئ، والأحياء المعاصرة في أورستاد، والمناطق الشعبية حول أمارغبروغاده.\n\n![قناة كريستيانشاون](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nتتمتع أوستربرو بسمعة أكثر سكنية، مع شوارع عريضة، وحدائق، وملعب، وقرب من البحر. أما فريدريكسبيرغ، وهي بلدية مستقلة محاطة بكوبنهاغن، فتقدّم حدائق، وفيلات، وشوارع تجارية. وأفضل طريقة للشعور بهذه الفروق هي السير في شارع عادي، والدخول إلى مخبز، ومراقبة إيقاع الدراجات: فالأحياء تُعرَّف أقلّ بحدّ فاصل واضح، وأكثر بالطريقة التي يعيشها الناس فيها.","cn":"Indre By 集中了各类机构、商业街道以及这座城堡化城市留下的痕迹。Strøget 吸引着大量人流，但只需稍微绕行，就能重新找到庭院、书店和更安静的广场。Slotsholmen 构成政治核心；Frederiksstaden 以 Amalienborg 周边为中心，呈现出贵族式的布局；Nyhavn 则增添了已成为热门旅游景点的港口景致。\n\nVesterbro 曾长期是工人阶层社区，与屠宰场、廉价旅馆以及火车站附近的卖淫活动联系在一起。如今的转型带来了 Meatpacking District 的咖啡馆、画廊和餐厅。这里昔日的粗粝感并未完全消失，这一街区仍是理解更新改造、租金上涨与劳动记忆之间张力的典型例子。\n\n![Meatpacking District 旧粮仓](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro 更加密集、年轻且多元文化。Assistens Kirkegård、Jægersborggade、Blågårds Plads 和 Superkilen 呈现出截然不同的氛围。中东杂货店、新式面包店、工作室和酒吧共享着同一批街道。示威活动以及围绕融合问题的讨论，也塑造了它近年的历史。\n\nChristianshavn 以规则的运河为标志，这些运河承袭自 Christian IV 的规划，同时也保留了商人宅邸。自 1971 年起，Christiania 占据了城墙之外的旧军营。Amager 曾长期是菜农和后来的工业区，如今则融合了海滩、Ørestad 的当代街区，以及围绕 Amagerbrogade 的平民社区。\n\n![Christianshavn 运河](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro 以更强的居住属性著称，拥有宽阔的大道、公园、体育场，并且临海而近。Frederiksberg 是一个嵌在哥本哈根内部的独立市镇，拥有花园、别墅和商业街。感受这些差异的最好方式，是沿着一条普通街道散步，走进一家面包店，观察自行车的节奏：街区的界定，与其说依赖清晰的边界，不如说取决于人们在其中的生活方式。","ja":"インドレ・バイは、各種機関、商店街、そして要塞都市の名残が集まる地区です。ストロイエには人々が押し寄せますが、少し脇道に入るだけで、中庭や書店、そしてより静かな広場が見つかります。スロッツホルメンは政治の中枢をなし、アマリエンボー周辺のフレゼリクススターデンは貴族的な構成美を見せます。ニューハウンは、いまでは観光客でにぎわう港の景観を添えています。\n\nヴェスターブロは長く労働者の地区であり、食肉処理場、安価なホテル、駅周辺の売春と結びついていました。再開発によって、ミートパッキング地区にはカフェ、ギャラリー、レストランが生まれました。かつての荒々しさは完全には消えておらず、この地区は、再生、家賃の上昇、労働の記憶のあいだにある緊張関係を示すよい例となっています。\n\n![ミートパッキング地区の旧市場ホール](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nノアブロは、より人口密度が高く、若く、多文化的です。アシステンス・キルケゴー、イェーアスボーガーデ、ブロウガーズ・プラズ、スーパーキーレンは、それぞれまったく異なる雰囲気をたたえています。中東系食料品店、新しいベーカリー、工房、バーが同じ通りを分かち合っています。デモや統合をめぐる議論も、この地区の近年の歴史を形づくってきました。\n\nクリスチャンスハウンは、クリスチャン4世の都市計画に由来する整然とした運河と、商人の家並みで見分けられます。クリスチャニアは1971年から、城壁の外側にあった旧兵舎を占めています。アマー島は、長く野菜栽培農家の土地であり、のちに工業地帯となりましたが、現在ではビーチ、オレスタッドの現代的な地区、そしてアマー・ブロウガーデ周辺の庶民的な区域が共存しています。\n\n![クリスチャンスハウン運河](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nオスターブロは、広い並木通り、公園、スタジアム、そして海への近さを備え、より住宅地としての評判があります。フレデリクスベアはコペンハーゲンに囲まれた独立自治体で、庭園、邸宅、商店街が広がります。こうした違いを最もよく感じるには、ありふれた通りを歩き、パン屋に入り、自転車の流れを眺めることです。地区を分けるものは、はっきりした境界というより、そこでどのように暮らすかというあり方なのです。"}};
+window.CLQ_CULTURE_IMAGE_URLS = {"images/culture/quartiers-et-ambiances.jpg":"images/culture/quartiers-et-ambiances.jpg","images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg":"images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg","images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg":"images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg"};
+window.CLQ_CULTURE_I18N_OPTS = {"contentSelector":".info-text","linkSelector":"[data-title-i18n]","appTitle":"CityLoop Quest Copenhague"};
+function resolveCultureImageSrc(src) {
+    var map = window.CLQ_CULTURE_IMAGE_URLS || {};
+    return map[src] || src;
+  }
+  function cultureTextToHtml(text) {
+    function esc(value) {
+      return String(value || "").replace(/[&<>"']/g, function (ch) {
+        return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch];
+      });
+    }
+    var blocks = String(text || "").split(/\n{2,}/).filter(Boolean);
+    return blocks.map(function (block) {
+      var inline = block.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)\s*$/);
+      if (inline) {
+        var caption = inline[1].trim();
+        var src = resolveCultureImageSrc(inline[2].trim());
+        return '<figure class="culture-inline-photo"><img src="' + esc(src) + '" alt="' + esc(caption) + '" loading="lazy" /><figcaption>' + esc(caption) + '</figcaption></figure>';
+      }
+      return "<p>" + esc(block).replace(/\n/g, "<br>") + "</p>";
+    }).join("\n");
+  }
+(function () {
+  var LANG_ALIASES = { ja: ["ja", "jp"], jp: ["jp", "ja"], cn: ["cn", "zh", "zh-cn"], zh: ["zh", "cn"] };
+  function normalizeLang(lang) {
+    var code = String(lang || localStorage.getItem("selectedLanguage") || "fr").toLowerCase();
+    if (code === "jp") return "ja";
+    if (code === "zh" || code === "zh-cn") return "cn";
+    return code;
+  }
+  var CLQ_BACK_BUTTON_LABELS = { fr: "RETOUR", en: "BACK", nl: "TERUG", de: "ZURÜCK", it: "INDIETRO", es: "VOLVER", pl: "POWRÓT", ar: "رجوع", cn: "返回", ja: "戻る", jp: "戻る", zh: "返回" };
+  function applyCultureBackButton(lang) {
+    var code = normalizeLang(lang);
+    var label = CLQ_BACK_BUTTON_LABELS[code] || CLQ_BACK_BUTTON_LABELS.fr;
+    document.querySelectorAll('[data-translate="back_button"]').forEach(function (el) {
+      el.textContent = label;
+    });
+  }
+  function pickStrict(map, lang) {
+    if (!map) return "";
+    var codes = LANG_ALIASES[lang] || [lang];
+    for (var i = 0; i < codes.length; i++) {
+      var exact = map[codes[i]];
+      if (exact != null && String(exact).trim() !== "") return exact;
+    }
+    return "";
+  }
+  function applyCulturePageI18n() {
+    var opts = window.CLQ_CULTURE_I18N_OPTS || {};
+    var selector = opts.contentSelector || ".info-text";
+    var appTitle = opts.appTitle || "";
+    var lang = normalizeLang(localStorage.getItem("selectedLanguage") || "");
+    var data = window.CLQ_PAGE_I18N || {};
+    var title = pickStrict(data.title, lang);
+    if (title) {
+      document.title = appTitle ? title + " - " + appTitle : title;
+      var pageTitle = document.querySelector("[data-culture-page-title]") || document.querySelector("body > h1");
+      if (pageTitle) pageTitle.textContent = title;
+    }
+    var container = document.querySelector(selector);
+    var content = pickStrict(data.content, lang);
+    if (container) {
+      var appliedLang = container.getAttribute("data-culture-lang");
+      var storedLang = normalizeLang(localStorage.getItem("selectedLanguage") || "");
+      var skipContent = appliedLang && appliedLang !== "fr" && storedLang && storedLang !== "fr" && lang === "fr";
+      if (!skipContent) {
+        if (content) {
+          container.innerHTML = cultureTextToHtml(content);
+          container.setAttribute("data-culture-lang", lang);
+        } else if (lang === "fr") {
+          var frContent = pickStrict(data.content, "fr");
+          if (frContent) {
+            container.innerHTML = cultureTextToHtml(frContent);
+            container.setAttribute("data-culture-lang", "fr");
+          }
+        }
+      }
+    }
+    applyCultureBackButton(lang);
+    document.documentElement.lang = lang === "cn" ? "zh" : (lang === "ja" ? "ja" : lang);
+  }
+  window.__CLQ_CULTURE_I18N_INLINE__ = true;
+  window.applyCulturePageI18n = applyCulturePageI18n;
+  document.addEventListener("languageChanged", function () {
+    applyCulturePageI18n();
+  });
+  applyCulturePageI18n();
+})();
+</script>
+<script src="js/culture-page-i18n.js" defer></script>
+</body>
+</html>

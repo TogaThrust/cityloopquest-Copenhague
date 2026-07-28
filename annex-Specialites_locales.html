@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spécialités locales - CityLoop Quest Copenhague</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="api-base.js"></script>
+  <script src="js/access-control.js"></script>
+  <script src="translations/translationManager.js"></script>
+  <script src="translations/languageSelector.js"></script>
+  <script src="js/access-guard.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    h1 { margin-bottom: 30px; }
+    .generated-gallery { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); max-width: 900px; margin: 0 auto 24px; }
+    .generated-gallery img { width: 100%; border-radius: 12px; }
+    .culture-video { width: min(760px, 92vw); margin: 0 auto 24px; }
+    .culture-video__frame { position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #111; }
+    .culture-video__frame iframe,
+    .culture-video__frame video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .culture-video__frame video { object-fit: contain; background: #000; }
+    .info-text { margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #c8102e; color: #333; max-width: 760px; margin-left: auto; margin-right: auto; text-align: left; line-height: 1.6; }
+    .culture-inline-photo { max-width: 320px; margin: 14px auto 22px; text-align: center; }
+    .culture-inline-photo img { width: 100%; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+    .culture-inline-photo figcaption { font-size: 0.9rem; color: #555; margin-top: 6px; font-style: italic; }
+  </style>
+</head>
+<body>
+<header class="main-header">
+  <div class="header-content">
+    <img src="images/icone titre0.png" alt="Icone 0" class="header-img left">
+    <h1>CityLoop Quest Copenhague</h1>
+    <img src="images/icone titre1.png" alt="Icone 1" class="header-img right">
+  </div>
+</header>
+<h1 data-culture-page-title>Spécialités locales</h1>
+<section class="generated-gallery"><figure><img src="images/culture/specialites-locales.jpg" alt="Smørrebrød in Copenhagen 01" /></figure></section>
+<section class="culture-video"><div class="culture-video__frame"><iframe src="https://www.youtube.com/embed/gW7Ptt11hao" title="Vidéo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></section>
+<div class="info-text"><p>Le smørrebrød commence par une tranche de pain de seigle sombre, dense et légèrement acide. Sur cette base viennent hareng mariné, rôti de porc, pâté, œuf, crevettes ou pomme de terre, toujours ordonnés avec attention. Ce repas ouvert n’est pas un sandwich refermé à la hâte : il se mange à la fourchette et au couteau, souvent selon un ordre allant du poisson vers la viande et le fromage.</p>
+<figure class="culture-inline-photo"><img src="images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg" alt="Assortiment de smørrebrød" loading="lazy" /><figcaption>Assortiment de smørrebrød</figcaption></figure>
+<p>Le hareng possède de nombreuses vies. Il peut être mariné au vinaigre, au curry, à l’oignon ou à l’aneth, puis accompagné de pain, graisse, œuf et aquavit. Cette tradition rappelle l’importance historique de la Baltique et des techniques de conservation. Les goûts sucrés-salés surprennent parfois, mais ils sont équilibrés par l’acidité et la force du seigle.</p>
+<p>Le flæskesteg, rôti de porc à la couenne croustillante, apparaît lors des repas familiaux et dans certains sandwiches. Les frikadeller, boulettes poêlées, constituent une nourriture quotidienne plutôt qu’un plat de cérémonie. Le hot-dog danois, vendu dans les pølsevogne depuis le début du XXe siècle, combine saucisse, moutarde, rémoulade, oignons crus et frits, cornichons et parfois une couleur rouge spectaculaire.</p>
+<p>Les pâtisseries appelées “danish” à l’étranger portent ici le nom de wienerbrød, pain viennois. Des boulangers autrichiens auraient contribué à populariser la pâte feuilletée au XIXe siècle pendant une grève des ouvriers danois. Kanelsnegle à la cannelle, spandauer à la crème et tebirkes aux graines de pavot montrent combien chaque boulangerie possède ses préférences.</p>
+<figure class="culture-inline-photo"><img src="images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg" alt="Wienerbrød dans une boulangerie danoise" loading="lazy" /><figcaption>Wienerbrød dans une boulangerie danoise</figcaption></figure>
+<p>Le renouveau gastronomique nordique a remis en valeur produits sauvages, fermentations, algues et saisons, mais la cuisine de Copenhague ne se limite pas aux restaurants étoilés. Un déjeuner de smørrebrød, une saucisse au kiosque et un gâteau partagé avec du café racontent mieux la ville ordinaire. Regardez toujours les portions avant de commander plusieurs tartines : leur apparente finesse peut être trompeuse.</p></div>
+<a class="back-button" href="culture.html" data-translate="back_button">BACK</a>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  window.languageSelector?.createSelector?.();
+  window.languageSelector?.updateSelectorValue?.();
+});
+</script>
+<script>
+window.CLQ_PAGE_I18N = {"title":{"fr":"Spécialités locales","nl":"Lokale specialiteiten","en":"Local Specialties","de":"Lokale Spezialitäten","it":"Specialità locali","es":"Especialidades locales","pl":"Lokalne specjały","ar":"التخصصات المحلية","cn":"地方特色","ja":"郷土料理"},"content":{"fr":"Le smørrebrød commence par une tranche de pain de seigle sombre, dense et légèrement acide. Sur cette base viennent hareng mariné, rôti de porc, pâté, œuf, crevettes ou pomme de terre, toujours ordonnés avec attention. Ce repas ouvert n’est pas un sandwich refermé à la hâte : il se mange à la fourchette et au couteau, souvent selon un ordre allant du poisson vers la viande et le fromage.\n\n![Assortiment de smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nLe hareng possède de nombreuses vies. Il peut être mariné au vinaigre, au curry, à l’oignon ou à l’aneth, puis accompagné de pain, graisse, œuf et aquavit. Cette tradition rappelle l’importance historique de la Baltique et des techniques de conservation. Les goûts sucrés-salés surprennent parfois, mais ils sont équilibrés par l’acidité et la force du seigle.\n\nLe flæskesteg, rôti de porc à la couenne croustillante, apparaît lors des repas familiaux et dans certains sandwiches. Les frikadeller, boulettes poêlées, constituent une nourriture quotidienne plutôt qu’un plat de cérémonie. Le hot-dog danois, vendu dans les pølsevogne depuis le début du XXe siècle, combine saucisse, moutarde, rémoulade, oignons crus et frits, cornichons et parfois une couleur rouge spectaculaire.\n\nLes pâtisseries appelées “danish” à l’étranger portent ici le nom de wienerbrød, pain viennois. Des boulangers autrichiens auraient contribué à populariser la pâte feuilletée au XIXe siècle pendant une grève des ouvriers danois. Kanelsnegle à la cannelle, spandauer à la crème et tebirkes aux graines de pavot montrent combien chaque boulangerie possède ses préférences.\n\n![Wienerbrød dans une boulangerie danoise](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nLe renouveau gastronomique nordique a remis en valeur produits sauvages, fermentations, algues et saisons, mais la cuisine de Copenhague ne se limite pas aux restaurants étoilés. Un déjeuner de smørrebrød, une saucisse au kiosque et un gâteau partagé avec du café racontent mieux la ville ordinaire. Regardez toujours les portions avant de commander plusieurs tartines : leur apparente finesse peut être trompeuse.","nl":"Smørrebrød begint met een snee donker, compact en licht zuur roggebrood. Op die basis komen gemarineerde haring, gebraden varkensvlees, paté, ei, garnalen of aardappel, altijd zorgvuldig geschikt. Deze open maaltijd is geen haastig dichtgeslagen sandwich: hij wordt gegeten met vork en mes, vaak volgens een volgorde van vis naar vlees en kaas.\n\n![Assortiment smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nHaring kent vele levens. Hij kan worden gemarineerd in azijn, curry, ui of dille, en vervolgens worden geserveerd met brood, spekvet, ei en aquavit. Deze traditie herinnert aan het historische belang van de Oostzee en de bewaartechnieken. Zoet-zoute smaken verrassen soms, maar worden in evenwicht gebracht door de zuurgraad en de kracht van rogge.\n\nFlæskesteg, gebraden varkensvlees met knapperig zwoerd, verschijnt bij familiediners en in sommige sandwiches. Frikadeller, in de pan gebakken gehaktballetjes, zijn eerder alledaags eten dan een ceremonieel gerecht. De Deense hotdog, sinds het begin van de 20e eeuw verkocht in pølsevogne, combineert worst, mosterd, remoulade, rauwe en gefrituurde uien, augurken en soms een opvallende rode kleur.\n\nDe banketjes die in het buitenland “danish” worden genoemd, heten hier wienerbrød, Weens brood. Oostenrijkse bakkers zouden in de 19e eeuw hebben bijgedragen aan de popularisering van bladerdeeg tijdens een staking van Deense arbeiders. Kanelsnegle met kaneel, spandauer met room en tebirkes met maanzaad laten zien hoezeer elke bakkerij haar eigen voorkeuren heeft.\n\n![Wienerbrød in een Deense bakkerij](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nDe Noordse gastronomische heropleving heeft wilde producten, fermentaties, algen en seizoensgebonden ingrediënten opnieuw onder de aandacht gebracht, maar de keuken van Kopenhagen beperkt zich niet tot sterrenrestaurants. Een smørrebrød-lunch, een worst bij het kioskje en een gebakje gedeeld met koffie vertellen beter het gewone stadsleven. Kijk altijd naar de porties voordat u meerdere belegde sneetjes bestelt: hun ogenschijnlijke bescheidenheid kan misleidend zijn.","en":"Smørrebrød begins with a slice of dark, dense, slightly tangy rye bread. On this base come pickled herring, roast pork, pâté, egg, shrimp or potato, always arranged with care. This open meal is not a sandwich hastily closed up: it is eaten with a fork and knife, often in an order that runs from fish to meat and cheese.\n\n![Assortment of smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nHerring has many lives. It can be marinated in vinegar, curry, onion or dill, then served with bread, fat, egg and aquavit. This tradition recalls the historical importance of the Baltic and preservation techniques. Sweet-and-salty flavors sometimes surprise, but they are balanced by the acidity and the strength of the rye.\n\nFlæskesteg, roast pork with crackling skin, appears at family meals and in certain sandwiches. Frikadeller, pan-fried meatballs, are everyday food rather than a ceremonial dish. The Danish hot dog, sold from pølsevogne since the early 20th century, combines sausage, mustard, remoulade, raw and fried onions, pickles and sometimes a striking red color.\n\nThe pastries called “danish” abroad are known here as wienerbrød, Viennese bread. Austrian bakers are said to have helped popularize puff pastry in the 19th century during a strike by Danish workers. Kanelsnegle with cinnamon, spandauer with cream and tebirkes with poppy seeds show how much each bakery has its own preferences.\n\n![Wienerbrød in a Danish bakery](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nThe Nordic gastronomic revival has brought wild produce, fermentations, seaweed and the seasons back into focus, but Copenhagen cuisine is not limited to Michelin-starred restaurants. A smørrebrød lunch, a sausage from the kiosk and a cake shared with coffee tell the story of the everyday city better. Always look at the portions before ordering several open sandwiches: their apparent delicacy can be misleading.","de":"Smørrebrød beginnt mit einer Scheibe dunklen, dichten und leicht säuerlichen Roggenbrots. Auf dieser Grundlage kommen marinierter Hering, Schweinebraten, Pastete, Ei, Garnelen oder Kartoffeln, immer sorgfältig angeordnet. Diese offene Mahlzeit ist kein hastig wieder verschlossenes Sandwich: Man isst sie mit Gabel und Messer, oft in einer Reihenfolge vom Fisch über Fleisch bis zum Käse.\n\n![Auswahl an Smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nDer Hering hat viele Leben. Er kann in Essig, mit Curry, mit Zwiebeln oder Dill mariniert werden und wird dann mit Brot, Fett, Ei und Aquavit serviert. Diese Tradition erinnert an die historische Bedeutung der Ostsee und an Konservierungstechniken. Süß-salzige Aromen überraschen manchmal, werden jedoch durch die Säure und die Kraft des Roggenbrots ausbalanciert.\n\nFlæskesteg, Schweinebraten mit knuspriger Kruste, erscheint bei Familienmahlzeiten und in bestimmten Sandwiches. Frikadeller, gebratene Fleischbällchen, sind eher Alltagsessen als ein Festtagsgericht. Der dänische Hotdog, seit dem frühen 20. Jahrhundert in den Pølsevogne verkauft, kombiniert Wurst, Senf, Remoulade, rohe und gebratene Zwiebeln, Gewürzgurken und manchmal eine spektakuläre rote Farbe.\n\nDas Gebäck, das im Ausland „danish“ genannt wird, heißt hier Wienerbrød, Wiener Brot. Österreichische Bäcker sollen im 19. Jahrhundert während eines Streiks dänischer Arbeiter dazu beigetragen haben, den Blätterteig bekannt zu machen. Kanelsnegle mit Zimt, Spandauer mit Creme und Tebirkes mit Mohn zeigen, wie sehr jede Bäckerei ihre eigenen Vorlieben hat.\n\n![Wienerbrød in einer dänischen Bäckerei](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nDie nordische Gastronomieerneuerung hat wilde Produkte, Fermentationen, Algen und saisonale Zutaten aufgewertet, doch die Küche Kopenhagens beschränkt sich nicht auf Sternerestaurants. Ein Smørrebrød-Mittagessen, eine Wurst am Kiosk und ein Kuchen, geteilt mit Kaffee, erzählen besser von der alltäglichen Stadt. Schauen Sie immer auf die Portionen, bevor Sie mehrere Brotscheiben bestellen: Ihre scheinbare Leichtigkeit kann täuschen.","it":"Lo smørrebrød inizia con una fetta di pane di segale scuro, denso e leggermente acidulo. Su questa base arrivano aringa marinata, arrosto di maiale, pâté, uovo, gamberetti o patata, sempre disposti con cura. Questo pasto aperto non è un panino chiuso in fretta: si mangia con forchetta e coltello, spesso seguendo un ordine che va dal pesce alla carne e al formaggio.\n\n![Assortimento di smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nL’aringa ha molte vite. Può essere marinata con aceto, curry, cipolla o aneto, quindi accompagnata da pane, grasso, uovo e aquavit. Questa tradizione richiama l’importanza storica del Baltico e delle tecniche di conservazione. I sapori agrodolci sorprendono talvolta, ma sono bilanciati dall’acidità e dalla forza della segale.\n\nIl flæskesteg, arrosto di maiale con crosta croccante, compare nei pranzi in famiglia e in alcuni sandwich. Le frikadeller, polpette in padella, costituiscono un alimento quotidiano più che un piatto cerimoniale. Il hot dog danese, venduto nei pølsevogne fin dall’inizio del XX secolo, combina salsiccia, senape, remoulade, cipolle crude e fritte, cetriolini e talvolta un vistoso colore rosso.\n\nI dolci chiamati “danish” all’estero qui portano il nome di wienerbrød, pane viennese. Alcuni fornai austriaci avrebbero contribuito a diffondere la pasta sfoglia nel XIX secolo durante uno sciopero degli operai danesi. Kanelsnegle alla cannella, spandauer alla crema e tebirkes ai semi di papavero mostrano quanto ogni panetteria abbia le proprie preferenze.\n\n![Wienerbrød in una panetteria danese](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nLa rinascita gastronomica nordica ha valorizzato prodotti selvatici, fermentazioni, alghe e stagioni, ma la cucina di Copenaghen non si limita ai ristoranti stellati. Un pranzo di smørrebrød, una salsiccia al chiosco e una torta condivisa con un caffè raccontano meglio la città di tutti i giorni. Guardate sempre le porzioni prima di ordinare più tartine: la loro apparente leggerezza può trarre in inganno.","es":"El smørrebrød comienza con una rebanada de pan de centeno oscuro, denso y ligeramente ácido. Sobre esta base se colocan arenque marinado, cerdo asado, paté, huevo, gambas o patata, siempre dispuestos con esmero. Esta comida abierta no es un sándwich cerrado con prisas: se come con tenedor y cuchillo, a menudo siguiendo un orden que va del pescado a la carne y al queso.\n\n![Surtido de smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nEl arenque tiene muchas vidas. Puede marinarse en vinagre, curry, cebolla o eneldo, y luego servirse con pan, grasa, huevo y aquavit. Esta tradición recuerda la importancia histórica del Báltico y de las técnicas de conservación. Los sabores agridulces a veces sorprenden, pero se equilibran con la acidez y la fuerza del centeno.\n\nEl flæskesteg, cerdo asado con corteza crujiente, aparece en las comidas familiares y en algunos bocadillos. Las frikadeller, albóndigas fritas en sartén, constituyen una comida cotidiana más que un plato ceremonial. El perrito caliente danés, vendido en los pølsevogne desde principios del siglo XX, combina salchicha, mostaza, rémoulade, cebolla cruda y frita, pepinillos y, a veces, un llamativo color rojo.\n\nLa bollería llamada “danish” en el extranjero aquí recibe el nombre de wienerbrød, pan vienés. Se dice que unos panaderos austriacos contribuyeron a popularizar la masa de hojaldre en el siglo XIX durante una huelga de los trabajadores daneses. Los kanelsnegle de canela, los spandauer con crema y los tebirkes con semillas de amapola muestran hasta qué punto cada panadería tiene sus preferencias.\n\n![Wienerbrød en una panadería danesa](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nEl renacimiento gastronómico nórdico ha puesto en valor los productos silvestres, las fermentaciones, las algas y las estaciones, pero la cocina de Copenhague no se limita a los restaurantes con estrellas. Un almuerzo de smørrebrød, una salchicha en el quiosco y un pastel compartido con café cuentan mejor la ciudad cotidiana. Mire siempre las porciones antes de pedir varias rebanadas: su aparente delicadeza puede ser engañosa.","pl":"Smørrebrød zaczyna się od kromki ciemnego, gęstego i lekko kwaśnego chleba żytniego. Na tej podstawie pojawiają się marynowany śledź, pieczona wieprzowina, pasztet, jajko, krewetki lub ziemniak — zawsze ułożone z dbałością. Ten otwarty posiłek nie jest kanapką zamkniętą w pośpiechu: je się go widelcem i nożem, często w kolejności od ryby do mięsa i sera.\n\n![Wybór smørrebrødów](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nŚledź ma wiele oblicz. Może być marynowany w occie, curry, cebuli lub koperku, a następnie podawany z chlebem, tłuszczem, jajkiem i akvavitem. Ta tradycja przypomina o historycznym znaczeniu Bałtyku i technik konserwowania żywności. Słodko-słone smaki czasem zaskakują, ale równoważą je kwasowość i wyrazistość żyta.\n\nFlæskesteg, czyli pieczeń wieprzowa z chrupiącą skórką, pojawia się podczas rodzinnych posiłków i w niektórych kanapkach. Frikadeller, smażone pulpeciki, stanowią raczej codzienne jedzenie niż danie odświętne. Duński hot dog, sprzedawany w pølsevogne od początku XX wieku, łączy kiełbasę, musztardę, remuladę, surową i smażoną cebulę, ogórki konserwowe, a czasem także efektowny czerwony kolor.\n\nCiastka zwane za granicą „danish” noszą tutaj nazwę wienerbrød, czyli wiedeńskie pieczywo. Austriaccy piekarze mieli przyczynić się do spopularyzowania ciasta francuskiego w XIX wieku, podczas strajku duńskich robotników. Kanelsnegle z cynamonem, spandauer z kremem i tebirkes z makiem pokazują, jak bardzo każda piekarnia ma własne upodobania.\n\n![Wienerbrød w duńskiej piekarni](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nNordyckie odrodzenie gastronomiczne przywróciło rangę produktom dzikim, fermentacjom, algom i sezonowości, ale kuchnia Kopenhagi nie ogranicza się do restauracji z gwiazdkami. Lunch ze smørrebrød, kiełbaska z kiosku i ciasto dzielone z kawą lepiej opowiadają o zwyczajnym mieście. Zawsze sprawdzaj wielkość porcji, zanim zamówisz kilka kromek: ich pozorna delikatność może być myląca.","ar":"يبدأ الـسموربرود بشريحة من خبز الجاودار الداكن، الكثيف والمائل قليلًا إلى الحموضة. وعلى هذه القاعدة يأتي الرنجة المخللة، ولحم الخنزير المشوي، والباتيه، والبيض، والروبيان أو البطاطا، مرتبة دائمًا بعناية. هذه الوجبة المفتوحة ليست ساندويتشًا يُغلق على عجل: بل تُؤكل بالشوكة والسكين، وغالبًا وفق ترتيب يبدأ بالسمك ثم اللحم فالجبن.\n\n![تشكيلة من السموربرود](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nللرنجة حيوات كثيرة. فقد تُخلّل بالخل أو بالكاري أو بالبصل أو بالشبت، ثم تُقدَّم مع الخبز والدهن والبيض والأكوافيت. وتذكّر هذه التقليد بأهمية بحر البلطيق التاريخية وتقنيات الحفظ. وقد تفاجئ أحيانًا النكهات الحلوة-المالحة، لكنها تتوازن مع الحموضة وقوة خبز الجاودار.\n\nيظهر الفلسكيستايغ، وهو لحم خنزير مشوي بقشرة مقرمشة، في الوجبات العائلية وفي بعض أنواع الساندويتشات. أما الفريكاديلر، وهي كرات لحم مقلية، فتُعد طعامًا يوميًا أكثر منها طبقًا احتفاليًا. ويجمع الهوت دوغ الدنماركي، المبيع في عربات البولسيفوغه منذ بداية القرن العشرين، بين السجق والخردل والريمولاد والبصل النيئ والمقلي والمخللات، وأحيانًا لون أحمر لافت.\n\nتحمل المعجنات التي تُسمّى «دانِش» في الخارج هنا اسم وينربرود، أي الخبز الفيني. ويُقال إن خبازين نمساويين أسهموا في نشر العجين المورق في القرن التاسع عشر خلال إضراب عمال دنماركيين. وتُظهر كانلسنيغه بالقرفة، وسبانداور بالكريمة، وتيبيركس ببذور الخشخاش، كم أن لكل مخبز تفضيلاته الخاصة.\n\n![وينربرود في مخبز دنماركي](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nأعاد التجديد الذواقي الشمالي الاعتبار إلى المنتجات البرية والتخمير والأعشاب البحرية والمواسم، لكن مطبخ كوبنهاغن لا يقتصر على المطاعم الحائزة على نجوم. فغداء من السموربرود، وسجق من كشك، وكعكة تُشارك مع القهوة، تروي المدينة اليومية على نحو أفضل. انظر دائمًا إلى الحصص قبل طلب عدة شرائح خبز مدهونة: فخفّتها الظاهرة قد تكون خادعة.","cn":"smørrebrød 始于一片深色、浓密且略带酸味的黑麦面包。在这块底座上，依次铺上腌鲱鱼、烤猪肉、肉酱、鸡蛋、虾或土豆，而且总是摆放得十分讲究。这种开放式餐食并不是匆忙合上的三明治：它要用叉子和刀来吃，通常按从鱼到肉再到奶酪的顺序享用。\n\n![smørrebrød 拼盘](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\n鲱鱼有着多种风味。它可以用醋、咖喱、洋葱或莳萝腌制，再配上面包、猪油、鸡蛋和 Aquavit。这个传统让人想起波罗的海在历史上的重要地位以及食物保存技术。甜咸交织的味道有时会让人惊讶，但酸味和黑麦的浓烈口感使其达到平衡。\n\nflæskesteg 是带有酥脆猪皮的烤猪肉，常出现在家庭聚餐和某些三明治中。frikadeller 是煎肉丸，更像日常食品，而非节庆菜肴。丹麦热狗自 20 世纪初以来就在 pølsevogne 中售卖，融合了香肠、芥末、蛋黄酱、生洋葱和炸洋葱、腌黄瓜，有时还会带有醒目的红色。\n\n在国外被称为“danish”的糕点，在这里叫作 wienerbrød，即维也纳面包。据说 19 世纪丹麦工人罢工期间，奥地利面包师帮助推广了起酥面团。肉桂卷 kanelsnegle、奶油面包 spandauer 和罂粟籽面包 tebirkes 说明了每家面包店都有自己的偏好。\n\n![丹麦面包店里的 wienerbrød](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\n北欧美食复兴重新凸显了野生食材、发酵食品、海藻和时令食材的价值，但哥本哈根的料理并不只限于米其林星级餐厅。一份 smørrebrød 午餐、一根小摊上的香肠、以及与咖啡一起分享的一块蛋糕，才更能讲述这座城市的日常。点多份开放式三明治之前，请务必先看清分量：它们看似轻巧，实则可能分量十足。","ja":"スモーブレッドは、濃く、密度が高く、ほのかに酸味のある黒いライ麦パンの一切れから始まります。その上に、酢漬けのニシン、ローストポーク、パテ、卵、エビ、あるいはじゃがいもが、いつも丁寧に整えられてのせられます。このオープンサンドは、慌ただしく閉じたサンドイッチではありません。フォークとナイフで食べ、たいていは魚から肉、そしてチーズへと進む順番で味わいます。\n\n![スモーブレッドの盛り合わせ](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nニシンには、いくつもの顔があります。ビネガー、カレー、玉ねぎ、またはディルでマリネされ、パン、ラード、卵、アクアヴィットとともに供されます。この伝統は、バルト海の歴史的な重要性と保存技術を思い起こさせます。甘じょっぱい味わいは時に驚きを与えますが、酸味とライ麦の力強さがそれを見事に支えます。\n\nフレスケステーイ、つまりパリッとした皮付きのローストポークは、家族の食卓や一部のサンドイッチに登場します。フリカデッラは、フライパンで焼いたミートボールで、儀式的な料理というより日常の食べ物です。20世紀初頭からポルセヴォグネで売られているデンマークのホットドッグは、ソーセージ、マスタード、レムラード、生と揚げの玉ねぎ、ピクルス、そして時には鮮やかな赤色を組み合わせています。\n\n海外で“danish”と呼ばれる菓子は、ここではウィーナーブロート、すなわちウィーンのパンと呼ばれます。19世紀、デンマーク人労働者のストライキの間に、オーストリアのパン職人たちが折り込み生地の普及に一役買ったとされています。シナモンのカーネルスネーグル、クリーム入りのスパンダウアー、ケシの実をのせたテビルクスは、パン屋ごとに好みがいかに異なるかを物語っています。\n\n![デンマークのパン屋のウィーナーブロート](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\n北欧ガストロノミーの再興は、野生の食材、発酵食品、海藻、季節感を再評価しましたが、コペンハーゲンの料理は星付きレストランだけにとどまりません。スモーブレッドの昼食、屋台のソーセージ、そしてコーヒーと分け合うケーキこそが、ありのままの街をよりよく物語ります。何枚も注文する前には、必ず一皿の量を確かめてください。その見た目の控えめさには、思いのほかだまされやすいのです。"}};
+window.CLQ_CULTURE_IMAGE_URLS = {"images/culture/specialites-locales.jpg":"images/culture/specialites-locales.jpg","images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg":"images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg","images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg":"images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg"};
+window.CLQ_CULTURE_I18N_OPTS = {"contentSelector":".info-text","linkSelector":"[data-title-i18n]","appTitle":"CityLoop Quest Copenhague"};
+function resolveCultureImageSrc(src) {
+    var map = window.CLQ_CULTURE_IMAGE_URLS || {};
+    return map[src] || src;
+  }
+  function cultureTextToHtml(text) {
+    function esc(value) {
+      return String(value || "").replace(/[&<>"']/g, function (ch) {
+        return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch];
+      });
+    }
+    var blocks = String(text || "").split(/\n{2,}/).filter(Boolean);
+    return blocks.map(function (block) {
+      var inline = block.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)\s*$/);
+      if (inline) {
+        var caption = inline[1].trim();
+        var src = resolveCultureImageSrc(inline[2].trim());
+        return '<figure class="culture-inline-photo"><img src="' + esc(src) + '" alt="' + esc(caption) + '" loading="lazy" /><figcaption>' + esc(caption) + '</figcaption></figure>';
+      }
+      return "<p>" + esc(block).replace(/\n/g, "<br>") + "</p>";
+    }).join("\n");
+  }
+(function () {
+  var LANG_ALIASES = { ja: ["ja", "jp"], jp: ["jp", "ja"], cn: ["cn", "zh", "zh-cn"], zh: ["zh", "cn"] };
+  function normalizeLang(lang) {
+    var code = String(lang || localStorage.getItem("selectedLanguage") || "fr").toLowerCase();
+    if (code === "jp") return "ja";
+    if (code === "zh" || code === "zh-cn") return "cn";
+    return code;
+  }
+  var CLQ_BACK_BUTTON_LABELS = { fr: "RETOUR", en: "BACK", nl: "TERUG", de: "ZURÜCK", it: "INDIETRO", es: "VOLVER", pl: "POWRÓT", ar: "رجوع", cn: "返回", ja: "戻る", jp: "戻る", zh: "返回" };
+  function applyCultureBackButton(lang) {
+    var code = normalizeLang(lang);
+    var label = CLQ_BACK_BUTTON_LABELS[code] || CLQ_BACK_BUTTON_LABELS.fr;
+    document.querySelectorAll('[data-translate="back_button"]').forEach(function (el) {
+      el.textContent = label;
+    });
+  }
+  function pickStrict(map, lang) {
+    if (!map) return "";
+    var codes = LANG_ALIASES[lang] || [lang];
+    for (var i = 0; i < codes.length; i++) {
+      var exact = map[codes[i]];
+      if (exact != null && String(exact).trim() !== "") return exact;
+    }
+    return "";
+  }
+  function applyCulturePageI18n() {
+    var opts = window.CLQ_CULTURE_I18N_OPTS || {};
+    var selector = opts.contentSelector || ".info-text";
+    var appTitle = opts.appTitle || "";
+    var lang = normalizeLang(localStorage.getItem("selectedLanguage") || "");
+    var data = window.CLQ_PAGE_I18N || {};
+    var title = pickStrict(data.title, lang);
+    if (title) {
+      document.title = appTitle ? title + " - " + appTitle : title;
+      var pageTitle = document.querySelector("[data-culture-page-title]") || document.querySelector("body > h1");
+      if (pageTitle) pageTitle.textContent = title;
+    }
+    var container = document.querySelector(selector);
+    var content = pickStrict(data.content, lang);
+    if (container) {
+      var appliedLang = container.getAttribute("data-culture-lang");
+      var storedLang = normalizeLang(localStorage.getItem("selectedLanguage") || "");
+      var skipContent = appliedLang && appliedLang !== "fr" && storedLang && storedLang !== "fr" && lang === "fr";
+      if (!skipContent) {
+        if (content) {
+          container.innerHTML = cultureTextToHtml(content);
+          container.setAttribute("data-culture-lang", lang);
+        } else if (lang === "fr") {
+          var frContent = pickStrict(data.content, "fr");
+          if (frContent) {
+            container.innerHTML = cultureTextToHtml(frContent);
+            container.setAttribute("data-culture-lang", "fr");
+          }
+        }
+      }
+    }
+    applyCultureBackButton(lang);
+    document.documentElement.lang = lang === "cn" ? "zh" : (lang === "ja" ? "ja" : lang);
+  }
+  window.__CLQ_CULTURE_I18N_INLINE__ = true;
+  window.applyCulturePageI18n = applyCulturePageI18n;
+  document.addEventListener("languageChanged", function () {
+    applyCulturePageI18n();
+  });
+  applyCulturePageI18n();
+})();
+</script>
+<script src="js/culture-page-i18n.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+{
+  "format": "clq-translation-fixes-v1",
+  "version": 1,
+  "exportedAt": "2026-07-28T16:25:33.148Z",
+  "cityName": "Copenhague",
+  "citySlug": "copenhague",
+  "sourceLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "nl",
+    "en",
+    "de",
+    "it",
+    "es",
+    "pl",
+    "ar",
+    "cn",
+    "ja"
+  ],
+  "summary": {
+    "total": 0,
+    "audioBlocking": 0,
+    "generationBlocking": 0,
+    "byLang": {}
+  },
+  "instructions": "Remplis correctedText pour chaque entrée. Conserve id, target, sourceText et currentText inchangés. Pour un POI parcours, la correction est propagée à tous les parcours (petit/moyen/grand) portant le même nom — une seule entrée par POI suffit.",
+  "items": [],
+  "allItems": [
+    {
+      "id": "annex_text:annex-quartiers:text:ar",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-quartiers",
+        "annexPath": "Culture locale > Quartiers et ambiances",
+        "field": "text",
+        "lang": "ar"
+      },
+      "label": "Page annexe \"Culture locale > Quartiers et ambiances\"",
+      "lang": "ar",
+      "sourceText": "Indre By concentre les institutions, les rues commerçantes et les traces de la ville fortifiée. Strøget attire les foules, mais quelques détours suffisent pour retrouver cours, librairies et places plus calmes. Slotsholmen forme le noyau politique ; Frederiksstaden, autour d’Amalienborg, offre une composition aristocratique ; Nyhavn ajoute son décor portuaire devenu très touristique.\n\nVesterbro fut longtemps un quartier ouvrier, associé aux abattoirs, aux hôtels bon marché et à la prostitution près de la gare. Sa transformation a produit cafés, galeries et restaurants dans le Meatpacking District. L’ancienne rugosité n’a pas totalement disparu, et le quartier reste un bon exemple des tensions entre rénovation, hausse des loyers et mémoire du travail.\n\n![Les anciennes halles du Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro est plus dense, jeune et multiculturel. Assistens Kirkegård, Jægersborggade, Blågårds Plads et Superkilen offrent des ambiances très différentes. Épiceries moyen-orientales, boulangeries nouvelles, ateliers et bars partagent les mêmes rues. Les manifestations et débats sur l’intégration ont aussi marqué son histoire récente.\n\nChristianshavn se reconnaît à ses canaux réguliers, hérités du plan de Christian IV, et à ses maisons de marchands. Christiania occupe depuis 1971 d’anciennes casernes au-delà des remparts. Amager, longtemps territoire de maraîchers puis d’industries, combine aujourd’hui plage, quartiers contemporains d’Ørestad et secteurs populaires autour d’Amagerbrogade.\n\n![Canal de Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro possède une réputation plus résidentielle, avec larges avenues, parcs, stade et proximité de la mer. Frederiksberg, commune indépendante enclavée dans Copenhague, offre jardins, villas et rues commerçantes. La meilleure façon de sentir ces différences consiste à parcourir une rue ordinaire, entrer dans une boulangerie et observer le rythme des vélos : les quartiers se définissent moins par une frontière nette que par la manière dont on y habite.",
+      "currentText": "تُركّز إندره باي المؤسسات، والشوارع التجارية، وآثار المدينة المُحصَّنة. يجتذب سترُوغيت الحشود، لكن يكفي أن تنحرف بضع خطوات لتجد الساحات الداخلية، والمكتبات، والساحات الأكثر هدوءًا. تشكّل سلوتهولمن النواة السياسية؛ وتقدّم فريدريكستادن، حول أماليينبورغ، تركيبة أرستقراطية؛ فيما يضيف نيهافن مشهده المينائي الذي صار شديد الجاذبية للسياح.\n\nكانت فيستر برو طوال زمن طويل حيًّا عماليًا، مرتبطًا بالمسالخ، والفنادق الرخيصة، والدعارة قرب المحطة. وقد أفضى تحوّله إلى ظهور المقاهي، والمعارض، والمطاعم في حيّ ميتباكينغ ديستريكت. ولم تختفِ الخشونة القديمة تمامًا، ولا يزال الحي مثالًا جيدًا على التوترات بين التجديد، وارتفاع الإيجارات، وذاكرة العمل.\n\n![المباني القديمة في حيّ ميتباكينغ ديستريكت](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nيتميّز نوربرو بكثافة أكبر، وبكونه حيًّا شابًا ومتعدد الثقافات. وتوفّر أسيستنس كيركغورد، وياغرسبورغغاده، وبلاوغوردس بلادس، وسوبركيلين أجواءً مختلفة جدًا. وتتقاسم الشوارع نفسها بقالات الشرق الأوسط، والمخابز الجديدة، والورش، والحانات. كما تركت التظاهرات والنقاشات حول الاندماج بصمتها على تاريخه الحديث.\n\nيُعرَف كريستيانشاون بقنواته المنتظمة، الموروثة من مخطط كريستيان الرابع، وببيوت التجار فيه. ومنذ عام 1971 تحتلّ كريستيانيا ثكناتٍ عسكرية قديمة خلف الأسوار. أما أماجر، التي كانت طويلًا أرضًا لمزارعي الخضار ثم للصناعات، فتجمع اليوم بين الشاطئ، والأحياء المعاصرة في أورستاد، والمناطق الشعبية حول أمارغبروغاده.\n\n![قناة كريستيانشاون](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nتتمتع أوستربرو بسمعة أكثر سكنية، مع شوارع عريضة، وحدائق، وملعب، وقرب من البحر. أما فريدريكسبيرغ، وهي بلدية مستقلة محاطة بكوبنهاغن، فتقدّم حدائق، وفيلات، وشوارع تجارية. وأفضل طريقة للشعور بهذه الفروق هي السير في شارع عادي، والدخول إلى مخبز، ومراقبة إيقاع الدراجات: فالأحياء تُعرَّف أقلّ بحدّ فاصل واضح، وأكثر بالطريقة التي يعيشها الناس فيها.",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 704,
+          "end": 764,
+          "text": "annex-quartiers-les-anciennes-halles-du-meatpacking-district",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-quartiers:text:cn",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-quartiers",
+        "annexPath": "Culture locale > Quartiers et ambiances",
+        "field": "text",
+        "lang": "cn"
+      },
+      "label": "Page annexe \"Culture locale > Quartiers et ambiances\"",
+      "lang": "cn",
+      "sourceText": "Indre By concentre les institutions, les rues commerçantes et les traces de la ville fortifiée. Strøget attire les foules, mais quelques détours suffisent pour retrouver cours, librairies et places plus calmes. Slotsholmen forme le noyau politique ; Frederiksstaden, autour d’Amalienborg, offre une composition aristocratique ; Nyhavn ajoute son décor portuaire devenu très touristique.\n\nVesterbro fut longtemps un quartier ouvrier, associé aux abattoirs, aux hôtels bon marché et à la prostitution près de la gare. Sa transformation a produit cafés, galeries et restaurants dans le Meatpacking District. L’ancienne rugosité n’a pas totalement disparu, et le quartier reste un bon exemple des tensions entre rénovation, hausse des loyers et mémoire du travail.\n\n![Les anciennes halles du Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro est plus dense, jeune et multiculturel. Assistens Kirkegård, Jægersborggade, Blågårds Plads et Superkilen offrent des ambiances très différentes. Épiceries moyen-orientales, boulangeries nouvelles, ateliers et bars partagent les mêmes rues. Les manifestations et débats sur l’intégration ont aussi marqué son histoire récente.\n\nChristianshavn se reconnaît à ses canaux réguliers, hérités du plan de Christian IV, et à ses maisons de marchands. Christiania occupe depuis 1971 d’anciennes casernes au-delà des remparts. Amager, longtemps territoire de maraîchers puis d’industries, combine aujourd’hui plage, quartiers contemporains d’Ørestad et secteurs populaires autour d’Amagerbrogade.\n\n![Canal de Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro possède une réputation plus résidentielle, avec larges avenues, parcs, stade et proximité de la mer. Frederiksberg, commune indépendante enclavée dans Copenhague, offre jardins, villas et rues commerçantes. La meilleure façon de sentir ces différences consiste à parcourir une rue ordinaire, entrer dans une boulangerie et observer le rythme des vélos : les quartiers se définissent moins par une frontière nette que par la manière dont on y habite.",
+      "currentText": "Indre By 集中了各类机构、商业街道以及这座城堡化城市留下的痕迹。Strøget 吸引着大量人流，但只需稍微绕行，就能重新找到庭院、书店和更安静的广场。Slotsholmen 构成政治核心；Frederiksstaden 以 Amalienborg 周边为中心，呈现出贵族式的布局；Nyhavn 则增添了已成为热门旅游景点的港口景致。\n\nVesterbro 曾长期是工人阶层社区，与屠宰场、廉价旅馆以及火车站附近的卖淫活动联系在一起。如今的转型带来了 Meatpacking District 的咖啡馆、画廊和餐厅。这里昔日的粗粝感并未完全消失，这一街区仍是理解更新改造、租金上涨与劳动记忆之间张力的典型例子。\n\n![Meatpacking District 旧粮仓](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro 更加密集、年轻且多元文化。Assistens Kirkegård、Jægersborggade、Blågårds Plads 和 Superkilen 呈现出截然不同的氛围。中东杂货店、新式面包店、工作室和酒吧共享着同一批街道。示威活动以及围绕融合问题的讨论，也塑造了它近年的历史。\n\nChristianshavn 以规则的运河为标志，这些运河承袭自 Christian IV 的规划，同时也保留了商人宅邸。自 1971 年起，Christiania 占据了城墙之外的旧军营。Amager 曾长期是菜农和后来的工业区，如今则融合了海滩、Ørestad 的当代街区，以及围绕 Amagerbrogade 的平民社区。\n\n![Christianshavn 运河](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro 以更强的居住属性著称，拥有宽阔的大道、公园、体育场，并且临海而近。Frederiksberg 是一个嵌在哥本哈根内部的独立市镇，拥有花园、别墅和商业街。感受这些差异的最好方式，是沿着一条普通街道散步，走进一家面包店，观察自行车的节奏：街区的界定，与其说依赖清晰的边界，不如说取决于人们在其中的生活方式。",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 360,
+          "end": 420,
+          "text": "annex-quartiers-les-anciennes-halles-du-meatpacking-district",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-quartiers:text:ja",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-quartiers",
+        "annexPath": "Culture locale > Quartiers et ambiances",
+        "field": "text",
+        "lang": "ja"
+      },
+      "label": "Page annexe \"Culture locale > Quartiers et ambiances\"",
+      "lang": "ja",
+      "sourceText": "Indre By concentre les institutions, les rues commerçantes et les traces de la ville fortifiée. Strøget attire les foules, mais quelques détours suffisent pour retrouver cours, librairies et places plus calmes. Slotsholmen forme le noyau politique ; Frederiksstaden, autour d’Amalienborg, offre une composition aristocratique ; Nyhavn ajoute son décor portuaire devenu très touristique.\n\nVesterbro fut longtemps un quartier ouvrier, associé aux abattoirs, aux hôtels bon marché et à la prostitution près de la gare. Sa transformation a produit cafés, galeries et restaurants dans le Meatpacking District. L’ancienne rugosité n’a pas totalement disparu, et le quartier reste un bon exemple des tensions entre rénovation, hausse des loyers et mémoire du travail.\n\n![Les anciennes halles du Meatpacking District](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nNørrebro est plus dense, jeune et multiculturel. Assistens Kirkegård, Jægersborggade, Blågårds Plads et Superkilen offrent des ambiances très différentes. Épiceries moyen-orientales, boulangeries nouvelles, ateliers et bars partagent les mêmes rues. Les manifestations et débats sur l’intégration ont aussi marqué son histoire récente.\n\nChristianshavn se reconnaît à ses canaux réguliers, hérités du plan de Christian IV, et à ses maisons de marchands. Christiania occupe depuis 1971 d’anciennes casernes au-delà des remparts. Amager, longtemps territoire de maraîchers puis d’industries, combine aujourd’hui plage, quartiers contemporains d’Ørestad et secteurs populaires autour d’Amagerbrogade.\n\n![Canal de Christianshavn](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nØsterbro possède une réputation plus résidentielle, avec larges avenues, parcs, stade et proximité de la mer. Frederiksberg, commune indépendante enclavée dans Copenhague, offre jardins, villas et rues commerçantes. La meilleure façon de sentir ces différences consiste à parcourir une rue ordinaire, entrer dans une boulangerie et observer le rythme des vélos : les quartiers se définissent moins par une frontière nette que par la manière dont on y habite.",
+      "currentText": "インドレ・バイは、各種機関、商店街、そして要塞都市の名残が集まる地区です。ストロイエには人々が押し寄せますが、少し脇道に入るだけで、中庭や書店、そしてより静かな広場が見つかります。スロッツホルメンは政治の中枢をなし、アマリエンボー周辺のフレゼリクススターデンは貴族的な構成美を見せます。ニューハウンは、いまでは観光客でにぎわう港の景観を添えています。\n\nヴェスターブロは長く労働者の地区であり、食肉処理場、安価なホテル、駅周辺の売春と結びついていました。再開発によって、ミートパッキング地区にはカフェ、ギャラリー、レストランが生まれました。かつての荒々しさは完全には消えておらず、この地区は、再生、家賃の上昇、労働の記憶のあいだにある緊張関係を示すよい例となっています。\n\n![ミートパッキング地区の旧市場ホール](images/culture/inline/annex-quartiers-les-anciennes-halles-du-meatpacking-district.jpg)\n\nノアブロは、より人口密度が高く、若く、多文化的です。アシステンス・キルケゴー、イェーアスボーガーデ、ブロウガーズ・プラズ、スーパーキーレンは、それぞれまったく異なる雰囲気をたたえています。中東系食料品店、新しいベーカリー、工房、バーが同じ通りを分かち合っています。デモや統合をめぐる議論も、この地区の近年の歴史を形づくってきました。\n\nクリスチャンスハウンは、クリスチャン4世の都市計画に由来する整然とした運河と、商人の家並みで見分けられます。クリスチャニアは1971年から、城壁の外側にあった旧兵舎を占めています。アマー島は、長く野菜栽培農家の土地であり、のちに工業地帯となりましたが、現在ではビーチ、オレスタッドの現代的な地区、そしてアマー・ブロウガーデ周辺の庶民的な区域が共存しています。\n\n![クリスチャンスハウン運河](images/culture/inline/annex-quartiers-canal-de-christianshavn.jpg)\n\nオスターブロは、広い並木通り、公園、スタジアム、そして海への近さを備え、より住宅地としての評判があります。フレデリクスベアはコペンハーゲンに囲まれた独立自治体で、庭園、邸宅、商店街が広がります。こうした違いを最もよく感じるには、ありふれた通りを歩き、パン屋に入り、自転車の流れを眺めることです。地区を分けるものは、はっきりした境界というより、そこでどのように暮らすかというあり方なのです。",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 380,
+          "end": 440,
+          "text": "annex-quartiers-les-anciennes-halles-du-meatpacking-district",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-specialites:text:ar",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-specialites",
+        "annexPath": "Gastronomie > Spécialités locales",
+        "field": "text",
+        "lang": "ar"
+      },
+      "label": "Page annexe \"Gastronomie > Spécialités locales\"",
+      "lang": "ar",
+      "sourceText": "Le smørrebrød commence par une tranche de pain de seigle sombre, dense et légèrement acide. Sur cette base viennent hareng mariné, rôti de porc, pâté, œuf, crevettes ou pomme de terre, toujours ordonnés avec attention. Ce repas ouvert n’est pas un sandwich refermé à la hâte : il se mange à la fourchette et au couteau, souvent selon un ordre allant du poisson vers la viande et le fromage.\n\n![Assortiment de smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nLe hareng possède de nombreuses vies. Il peut être mariné au vinaigre, au curry, à l’oignon ou à l’aneth, puis accompagné de pain, graisse, œuf et aquavit. Cette tradition rappelle l’importance historique de la Baltique et des techniques de conservation. Les goûts sucrés-salés surprennent parfois, mais ils sont équilibrés par l’acidité et la force du seigle.\n\nLe flæskesteg, rôti de porc à la couenne croustillante, apparaît lors des repas familiaux et dans certains sandwiches. Les frikadeller, boulettes poêlées, constituent une nourriture quotidienne plutôt qu’un plat de cérémonie. Le hot-dog danois, vendu dans les pølsevogne depuis le début du XXe siècle, combine saucisse, moutarde, rémoulade, oignons crus et frits, cornichons et parfois une couleur rouge spectaculaire.\n\nLes pâtisseries appelées “danish” à l’étranger portent ici le nom de wienerbrød, pain viennois. Des boulangers autrichiens auraient contribué à populariser la pâte feuilletée au XIXe siècle pendant une grève des ouvriers danois. Kanelsnegle à la cannelle, spandauer à la crème et tebirkes aux graines de pavot montrent combien chaque boulangerie possède ses préférences.\n\n![Wienerbrød dans une boulangerie danoise](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nLe renouveau gastronomique nordique a remis en valeur produits sauvages, fermentations, algues et saisons, mais la cuisine de Copenhague ne se limite pas aux restaurants étoilés. Un déjeuner de smørrebrød, une saucisse au kiosque et un gâteau partagé avec du café racontent mieux la ville ordinaire. Regardez toujours les portions avant de commander plusieurs tartines : leur apparente finesse peut être trompeuse.",
+      "currentText": "يبدأ الـسموربرود بشريحة من خبز الجاودار الداكن، الكثيف والمائل قليلًا إلى الحموضة. وعلى هذه القاعدة يأتي الرنجة المخللة، ولحم الخنزير المشوي، والباتيه، والبيض، والروبيان أو البطاطا، مرتبة دائمًا بعناية. هذه الوجبة المفتوحة ليست ساندويتشًا يُغلق على عجل: بل تُؤكل بالشوكة والسكين، وغالبًا وفق ترتيب يبدأ بالسمك ثم اللحم فالجبن.\n\n![تشكيلة من السموربرود](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nللرنجة حيوات كثيرة. فقد تُخلّل بالخل أو بالكاري أو بالبصل أو بالشبت، ثم تُقدَّم مع الخبز والدهن والبيض والأكوافيت. وتذكّر هذه التقليد بأهمية بحر البلطيق التاريخية وتقنيات الحفظ. وقد تفاجئ أحيانًا النكهات الحلوة-المالحة، لكنها تتوازن مع الحموضة وقوة خبز الجاودار.\n\nيظهر الفلسكيستايغ، وهو لحم خنزير مشوي بقشرة مقرمشة، في الوجبات العائلية وفي بعض أنواع الساندويتشات. أما الفريكاديلر، وهي كرات لحم مقلية، فتُعد طعامًا يوميًا أكثر منها طبقًا احتفاليًا. ويجمع الهوت دوغ الدنماركي، المبيع في عربات البولسيفوغه منذ بداية القرن العشرين، بين السجق والخردل والريمولاد والبصل النيئ والمقلي والمخللات، وأحيانًا لون أحمر لافت.\n\nتحمل المعجنات التي تُسمّى «دانِش» في الخارج هنا اسم وينربرود، أي الخبز الفيني. ويُقال إن خبازين نمساويين أسهموا في نشر العجين المورق في القرن التاسع عشر خلال إضراب عمال دنماركيين. وتُظهر كانلسنيغه بالقرفة، وسبانداور بالكريمة، وتيبيركس ببذور الخشخاش، كم أن لكل مخبز تفضيلاته الخاصة.\n\n![وينربرود في مخبز دنماركي](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nأعاد التجديد الذواقي الشمالي الاعتبار إلى المنتجات البرية والتخمير والأعشاب البحرية والمواسم، لكن مطبخ كوبنهاغن لا يقتصر على المطاعم الحائزة على نجوم. فغداء من السموربرود، وسجق من كشك، وكعكة تُشارك مع القهوة، تروي المدينة اليومية على نحو أفضل. انظر دائمًا إلى الحصص قبل طلب عدة شرائح خبز مدهونة: فخفّتها الظاهرة قد تكون خادعة.",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 1369,
+          "end": 1425,
+          "text": "annex-specialites-wienerbrd-dans-une-boulangerie-danoise",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-specialites:text:cn",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-specialites",
+        "annexPath": "Gastronomie > Spécialités locales",
+        "field": "text",
+        "lang": "cn"
+      },
+      "label": "Page annexe \"Gastronomie > Spécialités locales\"",
+      "lang": "cn",
+      "sourceText": "Le smørrebrød commence par une tranche de pain de seigle sombre, dense et légèrement acide. Sur cette base viennent hareng mariné, rôti de porc, pâté, œuf, crevettes ou pomme de terre, toujours ordonnés avec attention. Ce repas ouvert n’est pas un sandwich refermé à la hâte : il se mange à la fourchette et au couteau, souvent selon un ordre allant du poisson vers la viande et le fromage.\n\n![Assortiment de smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nLe hareng possède de nombreuses vies. Il peut être mariné au vinaigre, au curry, à l’oignon ou à l’aneth, puis accompagné de pain, graisse, œuf et aquavit. Cette tradition rappelle l’importance historique de la Baltique et des techniques de conservation. Les goûts sucrés-salés surprennent parfois, mais ils sont équilibrés par l’acidité et la force du seigle.\n\nLe flæskesteg, rôti de porc à la couenne croustillante, apparaît lors des repas familiaux et dans certains sandwiches. Les frikadeller, boulettes poêlées, constituent une nourriture quotidienne plutôt qu’un plat de cérémonie. Le hot-dog danois, vendu dans les pølsevogne depuis le début du XXe siècle, combine saucisse, moutarde, rémoulade, oignons crus et frits, cornichons et parfois une couleur rouge spectaculaire.\n\nLes pâtisseries appelées “danish” à l’étranger portent ici le nom de wienerbrød, pain viennois. Des boulangers autrichiens auraient contribué à populariser la pâte feuilletée au XIXe siècle pendant une grève des ouvriers danois. Kanelsnegle à la cannelle, spandauer à la crème et tebirkes aux graines de pavot montrent combien chaque boulangerie possède ses préférences.\n\n![Wienerbrød dans une boulangerie danoise](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nLe renouveau gastronomique nordique a remis en valeur produits sauvages, fermentations, algues et saisons, mais la cuisine de Copenhague ne se limite pas aux restaurants étoilés. Un déjeuner de smørrebrød, une saucisse au kiosque et un gâteau partagé avec du café racontent mieux la ville ordinaire. Regardez toujours les portions avant de commander plusieurs tartines : leur apparente finesse peut être trompeuse.",
+      "currentText": "smørrebrød 始于一片深色、浓密且略带酸味的黑麦面包。在这块底座上，依次铺上腌鲱鱼、烤猪肉、肉酱、鸡蛋、虾或土豆，而且总是摆放得十分讲究。这种开放式餐食并不是匆忙合上的三明治：它要用叉子和刀来吃，通常按从鱼到肉再到奶酪的顺序享用。\n\n![smørrebrød 拼盘](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\n鲱鱼有着多种风味。它可以用醋、咖喱、洋葱或莳萝腌制，再配上面包、猪油、鸡蛋和 Aquavit。这个传统让人想起波罗的海在历史上的重要地位以及食物保存技术。甜咸交织的味道有时会让人惊讶，但酸味和黑麦的浓烈口感使其达到平衡。\n\nflæskesteg 是带有酥脆猪皮的烤猪肉，常出现在家庭聚餐和某些三明治中。frikadeller 是煎肉丸，更像日常食品，而非节庆菜肴。丹麦热狗自 20 世纪初以来就在 pølsevogne 中售卖，融合了香肠、芥末、蛋黄酱、生洋葱和炸洋葱、腌黄瓜，有时还会带有醒目的红色。\n\n在国外被称为“danish”的糕点，在这里叫作 wienerbrød，即维也纳面包。据说 19 世纪丹麦工人罢工期间，奥地利面包师帮助推广了起酥面团。肉桂卷 kanelsnegle、奶油面包 spandauer 和罂粟籽面包 tebirkes 说明了每家面包店都有自己的偏好。\n\n![丹麦面包店里的 wienerbrød](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\n北欧美食复兴重新凸显了野生食材、发酵食品、海藻和时令食材的价值，但哥本哈根的料理并不只限于米其林星级餐厅。一份 smørrebrød 午餐、一根小摊上的香肠、以及与咖啡一起分享的一块蛋糕，才更能讲述这座城市的日常。点多份开放式三明治之前，请务必先看清分量：它们看似轻巧，实则可能分量十足。",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 645,
+          "end": 701,
+          "text": "annex-specialites-wienerbrd-dans-une-boulangerie-danoise",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-specialites:text:ja",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-specialites",
+        "annexPath": "Gastronomie > Spécialités locales",
+        "field": "text",
+        "lang": "ja"
+      },
+      "label": "Page annexe \"Gastronomie > Spécialités locales\"",
+      "lang": "ja",
+      "sourceText": "Le smørrebrød commence par une tranche de pain de seigle sombre, dense et légèrement acide. Sur cette base viennent hareng mariné, rôti de porc, pâté, œuf, crevettes ou pomme de terre, toujours ordonnés avec attention. Ce repas ouvert n’est pas un sandwich refermé à la hâte : il se mange à la fourchette et au couteau, souvent selon un ordre allant du poisson vers la viande et le fromage.\n\n![Assortiment de smørrebrød](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nLe hareng possède de nombreuses vies. Il peut être mariné au vinaigre, au curry, à l’oignon ou à l’aneth, puis accompagné de pain, graisse, œuf et aquavit. Cette tradition rappelle l’importance historique de la Baltique et des techniques de conservation. Les goûts sucrés-salés surprennent parfois, mais ils sont équilibrés par l’acidité et la force du seigle.\n\nLe flæskesteg, rôti de porc à la couenne croustillante, apparaît lors des repas familiaux et dans certains sandwiches. Les frikadeller, boulettes poêlées, constituent une nourriture quotidienne plutôt qu’un plat de cérémonie. Le hot-dog danois, vendu dans les pølsevogne depuis le début du XXe siècle, combine saucisse, moutarde, rémoulade, oignons crus et frits, cornichons et parfois une couleur rouge spectaculaire.\n\nLes pâtisseries appelées “danish” à l’étranger portent ici le nom de wienerbrød, pain viennois. Des boulangers autrichiens auraient contribué à populariser la pâte feuilletée au XIXe siècle pendant une grève des ouvriers danois. Kanelsnegle à la cannelle, spandauer à la crème et tebirkes aux graines de pavot montrent combien chaque boulangerie possède ses préférences.\n\n![Wienerbrød dans une boulangerie danoise](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\nLe renouveau gastronomique nordique a remis en valeur produits sauvages, fermentations, algues et saisons, mais la cuisine de Copenhague ne se limite pas aux restaurants étoilés. Un déjeuner de smørrebrød, une saucisse au kiosque et un gâteau partagé avec du café racontent mieux la ville ordinaire. Regardez toujours les portions avant de commander plusieurs tartines : leur apparente finesse peut être trompeuse.",
+      "currentText": "スモーブレッドは、濃く、密度が高く、ほのかに酸味のある黒いライ麦パンの一切れから始まります。その上に、酢漬けのニシン、ローストポーク、パテ、卵、エビ、あるいはじゃがいもが、いつも丁寧に整えられてのせられます。このオープンサンドは、慌ただしく閉じたサンドイッチではありません。フォークとナイフで食べ、たいていは魚から肉、そしてチーズへと進む順番で味わいます。\n\n![スモーブレッドの盛り合わせ](images/culture/inline/annex-specialites-assortiment-de-smrrebrd.jpg)\n\nニシンには、いくつもの顔があります。ビネガー、カレー、玉ねぎ、またはディルでマリネされ、パン、ラード、卵、アクアヴィットとともに供されます。この伝統は、バルト海の歴史的な重要性と保存技術を思い起こさせます。甘じょっぱい味わいは時に驚きを与えますが、酸味とライ麦の力強さがそれを見事に支えます。\n\nフレスケステーイ、つまりパリッとした皮付きのローストポークは、家族の食卓や一部のサンドイッチに登場します。フリカデッラは、フライパンで焼いたミートボールで、儀式的な料理というより日常の食べ物です。20世紀初頭からポルセヴォグネで売られているデンマークのホットドッグは、ソーセージ、マスタード、レムラード、生と揚げの玉ねぎ、ピクルス、そして時には鮮やかな赤色を組み合わせています。\n\n海外で“danish”と呼ばれる菓子は、ここではウィーナーブロート、すなわちウィーンのパンと呼ばれます。19世紀、デンマーク人労働者のストライキの間に、オーストリアのパン職人たちが折り込み生地の普及に一役買ったとされています。シナモンのカーネルスネーグル、クリーム入りのスパンダウアー、ケシの実をのせたテビルクスは、パン屋ごとに好みがいかに異なるかを物語っています。\n\n![デンマークのパン屋のウィーナーブロート](images/culture/inline/annex-specialites-wienerbrd-dans-une-boulangerie-danoise.jpg)\n\n北欧ガストロノミーの再興は、野生の食材、発酵食品、海藻、季節感を再評価しましたが、コペンハーゲンの料理は星付きレストランだけにとどまりません。スモーブレッドの昼食、屋台のソーセージ、そしてコーヒーと分け合うケーキこそが、ありのままの街をよりよく物語ります。何枚も注文する前には、必ず一皿の量を確かめてください。その見た目の控えめさには、思いのほかだまされやすいのです。",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 836,
+          "end": 892,
+          "text": "annex-specialites-wienerbrd-dans-une-boulangerie-danoise",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-gourmandes:text:ar",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-gourmandes",
+        "annexPath": "Gastronomie > Lieux et habitudes gourmandes",
+        "field": "text",
+        "lang": "ar"
+      },
+      "label": "Page annexe \"Gastronomie > Lieux et habitudes gourmandes\"",
+      "lang": "ar",
+      "sourceText": "Le matin copenhaguois commence souvent dans une boulangerie. On y achète un rundstykke, un morceau de pain au levain ou une viennoiserie, puis un café que l’on boit parfois en marchant. Les nouvelles boulangeries artisanales ont élevé les prix et la précision technique, mais les établissements de quartier restent des lieux de routine où l’on connaît les commandes des habitués.\n\nTorvehallerne, près de Nørreport, réunit deux halles de verre ouvertes en 2011. Poissonniers, fromagers, étals de légumes, comptoirs de smørrebrød et cuisines du monde y cohabitent. Le lieu n’est pas un marché populaire bon marché, mais il offre un panorama pratique des produits et permet de composer un repas en petites portions.\n\n![Les halles de Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nLes anciennes halles de Kødbyen à Vesterbro accueillent restaurants, bars et événements dans un décor de bâtiments blancs ou bruns hérités des abattoirs. À Refshaleøen, Reffen rassemble des cuisines de rue dans des conteneurs et ateliers recyclés. Ces espaces montrent comment les friches industrielles sont devenues des destinations culinaires, avec le risque de perdre une partie de leur histoire ouvrière.\n\n![Cuisine de rue à Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nLe déjeuner reste souvent plus simple que le dîner. Les Danois apprécient la pause café accompagnée d’un gâteau, sans ritualiser chaque rencontre. Le vendredi, bars et bureaux peuvent commencer tôt le week-end. La bière artisanale a explosé depuis les années 2000, mais les marques historiques et le schnaps gardent leur place dans les repas traditionnels.\n\nRéserver est prudent dans les restaurants recherchés, tandis que les comptoirs de marché fonctionnent plus spontanément. L’eau du robinet est potable et généralement servie sans difficulté, parfois facturée dans certains établissements. Le service est inclus ; un pourboire modeste reste facultatif. Pour manger comme un habitant, choisissez une adresse à quelques rues des grands quais et observez ce que commandent les tables voisines.",
+      "currentText": "غالبًا ما يبدأ الصباح في كوبنهاغن من مخبز. هناك يُشترى rundstykke، أو قطعة من خبز العجين المخمّر، أو معجنات، ثم قهوة تُشرب أحيانًا أثناء المشي. وقد رفعت المخابز الحرفية الجديدة الأسعار ومقدار الدقة التقنية، لكنّ محلات الأحياء تبقى أماكن روتينية يعرف فيها العاملون طلبات الزبائن الدائمين.\n\nتجمع Torvehallerne، قرب Nørreport، بين قاعتين زجاجيتين افتُتحتا عام 2011. وفيها يتجاور باعة السمك، وباعة الجبن، وأكشاك الخضراوات، وأحواض smørrebrød، ومطابخ من أنحاء العالم. المكان ليس سوقًا شعبيًا رخيصًا، لكنه يقدّم صورة عملية عن المنتجات ويتيح تأليف وجبة من حصص صغيرة.\n\n![قاعات سوق تورفيهاليرني](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nتستقبل القاعات القديمة في Kødbyen بحي Vesterbro مطاعمَ وباراتٍ وفعالياتٍ ضمن مشهد من مبانٍ بيضاء أو بنية ورثتُها عن المسالخ. وفي Refshaleøen، يجمع Reffen مطابخ الشارع داخل حاويات وورش مُعاد تدويرها. وتُظهر هذه الفضاءات كيف تحوّلت الأراضي الصناعية المهجورة إلى وجهاتٍ طهوية، مع خطر فقدان جزء من تاريخها العمالي.\n\n![طعام الشارع في \"ريفن\" (Reffen)](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nيبقى الغداء غالبًا أبسط من العشاء. ويقدّر الدنماركيون استراحة القهوة المصحوبة بكعكة، من دون طقوسية في كل لقاء. وفي يوم الجمعة قد تبدأ الحانات والمكاتب عطلة نهاية الأسبوع مبكرًا. وقد ازدهرت البيرة الحرفية منذ سنوات 2000، لكن العلامات التجارية التاريخية وschnaps ما زالت تحتفظ بمكانتها في الوجبات التقليدية.\n\nمن الحكمة الحجز في المطاعم المرغوبة، بينما تعمل منصات الأسواق بشكل أكثر عفوية. ماء الصنبور صالح للشرب ويُقدَّم عادةً من دون مشكلة، وإن كان يُحتسب أحيانًا في بعض الأماكن. الخدمة مشمولة؛ والإكرامية البسيطة تبقى اختيارية. ولتأكل كما يأكل أحد السكان، اختر عنوانًا على بُعد بضعة شوارع من الأرصفة الكبرى، وراقب ما تطلبه الطاولات المجاورة.",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 608,
+          "end": 652,
+          "text": "annex-gourmandes-les-halles-de-torvehallerne",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-gourmandes:text:cn",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-gourmandes",
+        "annexPath": "Gastronomie > Lieux et habitudes gourmandes",
+        "field": "text",
+        "lang": "cn"
+      },
+      "label": "Page annexe \"Gastronomie > Lieux et habitudes gourmandes\"",
+      "lang": "cn",
+      "sourceText": "Le matin copenhaguois commence souvent dans une boulangerie. On y achète un rundstykke, un morceau de pain au levain ou une viennoiserie, puis un café que l’on boit parfois en marchant. Les nouvelles boulangeries artisanales ont élevé les prix et la précision technique, mais les établissements de quartier restent des lieux de routine où l’on connaît les commandes des habitués.\n\nTorvehallerne, près de Nørreport, réunit deux halles de verre ouvertes en 2011. Poissonniers, fromagers, étals de légumes, comptoirs de smørrebrød et cuisines du monde y cohabitent. Le lieu n’est pas un marché populaire bon marché, mais il offre un panorama pratique des produits et permet de composer un repas en petites portions.\n\n![Les halles de Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nLes anciennes halles de Kødbyen à Vesterbro accueillent restaurants, bars et événements dans un décor de bâtiments blancs ou bruns hérités des abattoirs. À Refshaleøen, Reffen rassemble des cuisines de rue dans des conteneurs et ateliers recyclés. Ces espaces montrent comment les friches industrielles sont devenues des destinations culinaires, avec le risque de perdre une partie de leur histoire ouvrière.\n\n![Cuisine de rue à Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nLe déjeuner reste souvent plus simple que le dîner. Les Danois apprécient la pause café accompagnée d’un gâteau, sans ritualiser chaque rencontre. Le vendredi, bars et bureaux peuvent commencer tôt le week-end. La bière artisanale a explosé depuis les années 2000, mais les marques historiques et le schnaps gardent leur place dans les repas traditionnels.\n\nRéserver est prudent dans les restaurants recherchés, tandis que les comptoirs de marché fonctionnent plus spontanément. L’eau du robinet est potable et généralement servie sans difficulté, parfois facturée dans certains établissements. Le service est inclus ; un pourboire modeste reste facultatif. Pour manger comme un habitant, choisissez une adresse à quelques rues des grands quais et observez ce que commandent les tables voisines.",
+      "currentText": "哥本哈根的早晨往往从一家面包店开始。人们会在那里买一个 rundstykke、一块酸面团面包或一件丹麦酥点，再配上一杯咖啡，有时边走边喝。新兴的手工面包店抬高了价格，也提升了工艺的精细度，但街区里的老店依然是日常生活的场所，常客点什么，店家早已心中有数。\n\n靠近 Nørreport 的 Torvehallerne 由两座于2011年开放的玻璃大厅组成。鱼贩、奶酪商、蔬菜摊、smørrebrød柜台以及各国风味餐厅在这里并肩而立。这里并不是一个廉价的平民市场，但它提供了一个实用的食材全景，也方便人们用小份量拼出一餐。\n\n![Torvehallerne 市场大厅](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\n位于 Vesterbro 的 Kødbyen 老市场大厅，如今在由屠宰场沿袭下来的白色或棕色建筑背景中，接待餐厅、酒吧和各类活动。在 Refshaleøen，Reffen 则将街头美食聚集在集装箱和回收改造的工棚里。这些空间展示了工业废弃地如何变成美食目的地，同时也带来了失去部分工人阶级历史的风险。\n\n![Reffen 的街头美食](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\n午餐通常仍比晚餐更简单。丹麦人喜欢来一段咖啡时光，配上一块蛋糕，但并不会把每一次见面都仪式化。到了周五，酒吧和办公室里的周末氛围可能会提前开始。自2000年代以来，精酿啤酒迅速兴起，但传统品牌和烈性杜松子酒在传统餐桌上依然占有一席之地。\n\n在热门餐厅提前预订是明智之举，而市场柜台的用餐则更为随性。自来水可以直接饮用，通常也会毫无困难地提供，不过在某些场所可能会被收费。服务费已包含在内；少量小费并非必须。若想像当地人一样吃饭，可以选择离主要码头几条街远的餐馆，并观察邻桌点了什么。",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 306,
+          "end": 350,
+          "text": "annex-gourmandes-les-halles-de-torvehallerne",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    },
+    {
+      "id": "annex_text:annex-gourmandes:text:ja",
+      "target": {
+        "type": "annex_text",
+        "entityId": "annex-gourmandes",
+        "annexPath": "Gastronomie > Lieux et habitudes gourmandes",
+        "field": "text",
+        "lang": "ja"
+      },
+      "label": "Page annexe \"Gastronomie > Lieux et habitudes gourmandes\"",
+      "lang": "ja",
+      "sourceText": "Le matin copenhaguois commence souvent dans une boulangerie. On y achète un rundstykke, un morceau de pain au levain ou une viennoiserie, puis un café que l’on boit parfois en marchant. Les nouvelles boulangeries artisanales ont élevé les prix et la précision technique, mais les établissements de quartier restent des lieux de routine où l’on connaît les commandes des habitués.\n\nTorvehallerne, près de Nørreport, réunit deux halles de verre ouvertes en 2011. Poissonniers, fromagers, étals de légumes, comptoirs de smørrebrød et cuisines du monde y cohabitent. Le lieu n’est pas un marché populaire bon marché, mais il offre un panorama pratique des produits et permet de composer un repas en petites portions.\n\n![Les halles de Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nLes anciennes halles de Kødbyen à Vesterbro accueillent restaurants, bars et événements dans un décor de bâtiments blancs ou bruns hérités des abattoirs. À Refshaleøen, Reffen rassemble des cuisines de rue dans des conteneurs et ateliers recyclés. Ces espaces montrent comment les friches industrielles sont devenues des destinations culinaires, avec le risque de perdre une partie de leur histoire ouvrière.\n\n![Cuisine de rue à Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nLe déjeuner reste souvent plus simple que le dîner. Les Danois apprécient la pause café accompagnée d’un gâteau, sans ritualiser chaque rencontre. Le vendredi, bars et bureaux peuvent commencer tôt le week-end. La bière artisanale a explosé depuis les années 2000, mais les marques historiques et le schnaps gardent leur place dans les repas traditionnels.\n\nRéserver est prudent dans les restaurants recherchés, tandis que les comptoirs de marché fonctionnent plus spontanément. L’eau du robinet est potable et généralement servie sans difficulté, parfois facturée dans certains établissements. Le service est inclus ; un pourboire modeste reste facultatif. Pour manger comme un habitant, choisissez une adresse à quelques rues des grands quais et observez ce que commandent les tables voisines.",
+      "currentText": "コペンハーゲンの朝は、たいていパン屋から始まります。そこで rundstykke、サワードウのパンひとかけら、あるいはヴィエノワズリーを買い、時には歩きながら飲むコーヒーも手にします。新しい職人工房系のパン屋は価格と技術の精緻さを押し上げましたが、街区の店は今も、常連客の注文が分かる日常の場であり続けています。\n\nNørreport 近くの Torvehallerne は、2011年に開業した2つのガラス張りの市場ホールが集まる場所です。魚屋、チーズ店、野菜の売り場、smørrebrød のカウンター、世界各地の料理店が共存しています。ここは安くて庶民的な市場ではありませんが、食材の全体像を手軽に見渡せ、少量ずつ組み合わせて食事を作ることができます。\n\n![Torvehallerne の市場ホール](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nVesterbro の旧 Kødbyen の市場ホールでは、食肉処理場の名残を受け継ぐ白や茶色の建物を背景に、レストラン、バー、イベントが開かれています。Refshaleøen では、Reffen がコンテナや再利用された作業場に集められた屋台料理をまとめています。こうした空間は、工業用地の跡地がいかに食の目的地へ変わったかを示していますが、その一方で、労働者の歴史の一部が失われる危うさも抱えています。\n\n![Reffen の屋台料理](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\n昼食は、夕食よりもあっさりしていることが少なくありません。デンマーク人は、ケーキを添えたコーヒーブレイクを好み、あらゆる出会いを儀式化するわけではありません。金曜日には、バーやオフィスが早く週末モードに入ることもあります。クラフトビールは2000年代以降に大きく広がりましたが、伝統的な食事では、歴史ある銘柄やシュナップスが今も大切な位置を占めています。\n\n人気店では予約しておくのが賢明ですが、市場のカウンターはもっと気軽に利用できます。水道水は飲用可能で、通常は問題なく提供されますが、店によっては有料のこともあります。サービス料は込みで、少額のチップは任意です。地元の人のように食べるなら、大きな埠頭から少し離れた場所にある店を選び、周囲のテーブルが何を注文しているかを観察してみてください。",
+      "issues": [
+        "français résiduel"
+      ],
+      "highlights": [
+        {
+          "start": 377,
+          "end": 421,
+          "text": "annex-gourmandes-les-halles-de-torvehallerne",
+          "reason": "français résiduel (alphabet latin)"
+        }
+      ],
+      "affectsAudio": false,
+      "correctedText": ""
+    }
+  ]
+}

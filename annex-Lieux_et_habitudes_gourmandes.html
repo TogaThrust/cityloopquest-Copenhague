@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lieux et habitudes gourmandes - CityLoop Quest Copenhague</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="api-base.js"></script>
+  <script src="js/access-control.js"></script>
+  <script src="translations/translationManager.js"></script>
+  <script src="translations/languageSelector.js"></script>
+  <script src="js/access-guard.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    h1 { margin-bottom: 30px; }
+    .generated-gallery { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); max-width: 900px; margin: 0 auto 24px; }
+    .generated-gallery img { width: 100%; border-radius: 12px; }
+    .culture-video { width: min(760px, 92vw); margin: 0 auto 24px; }
+    .culture-video__frame { position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #111; }
+    .culture-video__frame iframe,
+    .culture-video__frame video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .culture-video__frame video { object-fit: contain; background: #000; }
+    .info-text { margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #c8102e; color: #333; max-width: 760px; margin-left: auto; margin-right: auto; text-align: left; line-height: 1.6; }
+    .culture-inline-photo { max-width: 320px; margin: 14px auto 22px; text-align: center; }
+    .culture-inline-photo img { width: 100%; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+    .culture-inline-photo figcaption { font-size: 0.9rem; color: #555; margin-top: 6px; font-style: italic; }
+  </style>
+</head>
+<body>
+<header class="main-header">
+  <div class="header-content">
+    <img src="images/icone titre0.png" alt="Icone 0" class="header-img left">
+    <h1>CityLoop Quest Copenhague</h1>
+    <img src="images/icone titre1.png" alt="Icone 1" class="header-img right">
+  </div>
+</header>
+<h1 data-culture-page-title>Lieux et habitudes gourmandes</h1>
+<section class="generated-gallery"><figure><img src="images/culture/lieux-et-habitudes-gourmandes.jpg" alt="Torvehallerne   Copenhagen" /></figure></section>
+<section class="culture-video"><div class="culture-video__frame"><iframe src="https://www.youtube.com/embed/N6UMts5yeJA" title="Vidéo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></section>
+<div class="info-text"><p>Le matin copenhaguois commence souvent dans une boulangerie. On y achète un rundstykke, un morceau de pain au levain ou une viennoiserie, puis un café que l’on boit parfois en marchant. Les nouvelles boulangeries artisanales ont élevé les prix et la précision technique, mais les établissements de quartier restent des lieux de routine où l’on connaît les commandes des habitués.</p>
+<p>Torvehallerne, près de Nørreport, réunit deux halles de verre ouvertes en 2011. Poissonniers, fromagers, étals de légumes, comptoirs de smørrebrød et cuisines du monde y cohabitent. Le lieu n’est pas un marché populaire bon marché, mais il offre un panorama pratique des produits et permet de composer un repas en petites portions.</p>
+<figure class="culture-inline-photo"><img src="images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg" alt="Les halles de Torvehallerne" loading="lazy" /><figcaption>Les halles de Torvehallerne</figcaption></figure>
+<p>Les anciennes halles de Kødbyen à Vesterbro accueillent restaurants, bars et événements dans un décor de bâtiments blancs ou bruns hérités des abattoirs. À Refshaleøen, Reffen rassemble des cuisines de rue dans des conteneurs et ateliers recyclés. Ces espaces montrent comment les friches industrielles sont devenues des destinations culinaires, avec le risque de perdre une partie de leur histoire ouvrière.</p>
+<figure class="culture-inline-photo"><img src="images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg" alt="Cuisine de rue à Reffen" loading="lazy" /><figcaption>Cuisine de rue à Reffen</figcaption></figure>
+<p>Le déjeuner reste souvent plus simple que le dîner. Les Danois apprécient la pause café accompagnée d’un gâteau, sans ritualiser chaque rencontre. Le vendredi, bars et bureaux peuvent commencer tôt le week-end. La bière artisanale a explosé depuis les années 2000, mais les marques historiques et le schnaps gardent leur place dans les repas traditionnels.</p>
+<p>Réserver est prudent dans les restaurants recherchés, tandis que les comptoirs de marché fonctionnent plus spontanément. L’eau du robinet est potable et généralement servie sans difficulté, parfois facturée dans certains établissements. Le service est inclus ; un pourboire modeste reste facultatif. Pour manger comme un habitant, choisissez une adresse à quelques rues des grands quais et observez ce que commandent les tables voisines.</p></div>
+<a class="back-button" href="culture.html" data-translate="back_button">BACK</a>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  window.languageSelector?.createSelector?.();
+  window.languageSelector?.updateSelectorValue?.();
+});
+</script>
+<script>
+window.CLQ_PAGE_I18N = {"title":{"fr":"Lieux et habitudes gourmandes","nl":"Eetplekken en gewoonten","en":"Food Spots and Habits","de":"Kulinarische Orte und Gewohnheiten","it":"Luoghi e abitudini gastronomiche","es":"Lugares y costumbres gastronómicas","pl":"Miejsca i zwyczaje kulinarne","ar":"أماكن وعادات الذواقة","cn":"美食地点与习惯","ja":"グルメスポットと食習慣"},"content":{"fr":"Le matin copenhaguois commence souvent dans une boulangerie. On y achète un rundstykke, un morceau de pain au levain ou une viennoiserie, puis un café que l’on boit parfois en marchant. Les nouvelles boulangeries artisanales ont élevé les prix et la précision technique, mais les établissements de quartier restent des lieux de routine où l’on connaît les commandes des habitués.\n\nTorvehallerne, près de Nørreport, réunit deux halles de verre ouvertes en 2011. Poissonniers, fromagers, étals de légumes, comptoirs de smørrebrød et cuisines du monde y cohabitent. Le lieu n’est pas un marché populaire bon marché, mais il offre un panorama pratique des produits et permet de composer un repas en petites portions.\n\n![Les halles de Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nLes anciennes halles de Kødbyen à Vesterbro accueillent restaurants, bars et événements dans un décor de bâtiments blancs ou bruns hérités des abattoirs. À Refshaleøen, Reffen rassemble des cuisines de rue dans des conteneurs et ateliers recyclés. Ces espaces montrent comment les friches industrielles sont devenues des destinations culinaires, avec le risque de perdre une partie de leur histoire ouvrière.\n\n![Cuisine de rue à Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nLe déjeuner reste souvent plus simple que le dîner. Les Danois apprécient la pause café accompagnée d’un gâteau, sans ritualiser chaque rencontre. Le vendredi, bars et bureaux peuvent commencer tôt le week-end. La bière artisanale a explosé depuis les années 2000, mais les marques historiques et le schnaps gardent leur place dans les repas traditionnels.\n\nRéserver est prudent dans les restaurants recherchés, tandis que les comptoirs de marché fonctionnent plus spontanément. L’eau du robinet est potable et généralement servie sans difficulté, parfois facturée dans certains établissements. Le service est inclus ; un pourboire modeste reste facultatif. Pour manger comme un habitant, choisissez une adresse à quelques rues des grands quais et observez ce que commandent les tables voisines.","nl":"De ochtend in Kopenhagen begint vaak in een bakkerij. Daar koopt men een rundstykke, een stuk zuurdesembrood of een viennoiserie, en vervolgens een koffie die men soms al lopend drinkt. De nieuwe ambachtelijke bakkerijen hebben de prijzen en de technische precisie opgedreven, maar de buurtzaken blijven plekken van routine, waar men de vaste klanten en hun bestellingen kent.\n\nTorvehallerne, vlak bij Nørreport, verenigt twee glazen hallen die in 2011 zijn geopend. Viskramen, kaaswinkels, groentestands, smørrebrød-standen en wereldkeukens gaan er samen. De plek is geen goedkope volksmarkt, maar biedt wel een praktisch overzicht van de producten en maakt het mogelijk om een maaltijd in kleine porties samen te stellen.\n\n![De hallen van Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nDe oude hallen van Kødbyen in Vesterbro huisvesten restaurants, bars en evenementen in een decor van witte of bruine gebouwen die zijn overgebleven van de slachthuizen. Op Refshaleøen brengt Reffen streetfood samen in containers en gerecyclede werkplaatsen. Deze plekken laten zien hoe industriële braakliggende terreinen culinaire bestemmingen zijn geworden, met het risico dat een deel van hun arbeidersgeschiedenis verloren gaat.\n\n![Streetfood op Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nDe lunch blijft vaak eenvoudiger dan het diner. Denen waarderen de koffiepauze met een stukje taart, zonder elke ontmoeting te ritualiseren. Op vrijdag kunnen cafés en kantoren vroeg aan het weekend beginnen. Ambachtelijk bier is sinds de jaren 2000 sterk in opkomst, maar de historische merken en de schnaps behouden hun plaats in traditionele maaltijden.\n\nReserveren is verstandig in de populaire restaurants, terwijl de marktstanden meer spontaan werken. Kraanwater is drinkbaar en wordt over het algemeen zonder problemen geserveerd, al wordt het in sommige zaken soms apart aangerekend. Bediening is inbegrepen; een kleine fooi is optioneel. Wie wil eten als een inwoner, kiest het best een adres op enkele straten van de grote kades en kijkt wat de tafels ernaast bestellen.","en":"The Copenhagen morning often begins in a bakery. There you buy a rundstykke, a piece of sourdough bread or a pastry, then a coffee that is sometimes drunk on the go. The new artisanal bakeries have raised prices and technical precision, but neighborhood shops remain places of routine where regulars’ orders are known.\n\nTorvehallerne, near Nørreport, brings together two glass halls opened in 2011. Fishmongers, cheesemongers, vegetable stalls, smørrebrød counters and international kitchens coexist there. The place is not a cheap people’s market, but it offers a practical overview of products and makes it possible to put together a meal in small portions.\n\n![The halls of Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nThe old halls of Kødbyen in Vesterbro host restaurants, bars and events in a setting of white or brown buildings inherited from the slaughterhouses. On Refshaleøen, Reffen brings together street food in containers and recycled workshops. These spaces show how industrial wastelands have become culinary destinations, with the risk of losing part of their working-class history.\n\n![Street food at Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nLunch often remains simpler than dinner. Danes appreciate the coffee break accompanied by a cake, without turning every meeting into a ritual. On Fridays, bars and offices may start the weekend early. Craft beer has exploded since the 2000s, but historic brands and schnapps still hold their place in traditional meals.\n\nBooking ahead is wise in sought-after restaurants, while market counters operate more spontaneously. Tap water is drinkable and generally served without difficulty, though it is sometimes charged in certain establishments. Service is included; a modest tip remains optional. To eat like a local, choose an address a few streets away from the main quays and observe what the neighboring tables order.","de":"Der Kopenhagener Morgen beginnt oft in einer Bäckerei. Dort kauft man ein Rundstück, ein Stück Sauerteigbrot oder ein Stück Feingebäck, dazu einen Kaffee, den man manchmal im Gehen trinkt. Die neuen handwerklichen Bäckereien haben die Preise und die technische Präzision in die Höhe getrieben, doch die Bäckereien im Viertel bleiben Orte der Routine, an denen man die Bestellungen der Stammgäste kennt.\n\nTorvehallerne, nahe Nørreport, vereint zwei Glashallen, die 2011 eröffnet wurden. Fischhändler, Käsehändler, Gemüsestände, Smørrebrød-Theken und Küchen aus aller Welt bestehen hier nebeneinander. Der Ort ist kein günstiger Volksmarkt, bietet aber einen praktischen Überblick über die Produkte und ermöglicht es, sich eine Mahlzeit aus kleinen Portionen zusammenzustellen.\n\n![Die Hallen von Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nDie ehemaligen Hallen von Kødbyen in Vesterbro beherbergen Restaurants, Bars und Veranstaltungen in einer Kulisse aus weißen oder braunen Gebäuden, die von den Schlachthäusern stammen. In Refshaleøen versammelt Reffen Streetfood in Containern und wiederverwendeten Werkstätten. Diese Orte zeigen, wie Industriebrachen zu kulinarischen Zielen geworden sind, mit dem Risiko, einen Teil ihrer Arbeitergeschichte zu verlieren.\n\n![Streetfood bei Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nDas Mittagessen bleibt oft einfacher als das Abendessen. Die Dänen schätzen die Kaffeepause mit einem Stück Kuchen, ohne jedes Treffen zu ritualisieren. Am Freitag können Bars und Büros früh ins Wochenende starten. Craft Beer hat seit den 2000er-Jahren einen regelrechten Boom erlebt, doch die traditionellen Marken und der Schnaps behalten ihren Platz in den traditionellen Mahlzeiten.\n\nIn gefragten Restaurants ist eine Reservierung ratsam, während die Theken auf den Märkten spontaner funktionieren. Leitungswasser ist trinkbar und wird in der Regel problemlos serviert, in manchen Lokalen allerdings berechnet. Der Service ist inbegriffen; ein kleines Trinkgeld ist freiwillig. Wer essen möchte wie ein Einheimischer, sucht sich eine Adresse ein paar Straßen von den großen Kais entfernt und beobachtet, was die benachbarten Tische bestellen.","it":"La mattina copenaghese comincia spesso in una panetteria. Qui si compra un rundstykke, un pezzo di pane a lievitazione naturale o un dolce viennese, poi un caffè che a volte si beve camminando. Le nuove panetterie artigianali hanno alzato i prezzi e la precisione tecnica, ma i locali di quartiere restano luoghi di routine in cui si conoscono gli ordini dei clienti abituali.\n\nTorvehallerne, vicino a Nørreport, riunisce due padiglioni di vetro inaugurati nel 2011. Pescivendoli, formaggiai, banchi di verdure, punti vendita di smørrebrød e cucine del mondo convivono fianco a fianco. Il luogo non è un mercato popolare a buon mercato, ma offre una panoramica pratica dei prodotti e permette di comporre un pasto in piccole porzioni.\n\n![Le hall di Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nLe antiche hall di Kødbyen, a Vesterbro, ospitano ristoranti, bar ed eventi in uno scenario di edifici bianchi o marroni ereditati dai macelli. A Refshaleøen, Reffen riunisce cucine di strada in container e laboratori riciclati. Questi spazi mostrano come le aree industriali dismesse siano diventate destinazioni gastronomiche, con il rischio di perdere una parte della loro storia operaia.\n\n![Cucina di strada a Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nIl pranzo resta spesso più semplice della cena. I danesi apprezzano la pausa caffè accompagnata da un dolce, senza ritualizzare ogni incontro. Il venerdì, bar e uffici possono iniziare presto il fine settimana. La birra artigianale è esplosa dagli anni 2000, ma i marchi storici e lo schnaps conservano il loro posto nei pasti tradizionali.\n\nPrenotare è prudente nei ristoranti più ricercati, mentre i banchi del mercato funzionano in modo più spontaneo. L’acqua del rubinetto è potabile e generalmente viene servita senza difficoltà, a volte a pagamento in alcuni locali. Il servizio è incluso; una piccola mancia resta facoltativa. Per mangiare come un abitante del posto, scegliete un indirizzo a poche strade dai grandi moli e osservate cosa ordinano i tavoli vicini.","es":"La mañana de Copenhague suele empezar en una panadería. Allí se compra un rundstykke, un trozo de pan de masa madre o una pieza de bollería, y luego un café que a veces se toma caminando. Las nuevas panaderías artesanales han elevado los precios y la precisión técnica, pero los establecimientos de barrio siguen siendo lugares de rutina donde se conocen los pedidos de los clientes habituales.\n\nTorvehallerne, cerca de Nørreport, reúne dos pabellones de vidrio abiertos en 2011. Pescaderos, queseros, puestos de verduras, mostradores de smørrebrød y cocinas del mundo conviven allí. El lugar no es un mercado popular barato, pero ofrece un panorama práctico de los productos y permite componer una comida en pequeñas porciones.\n\n![Mercado Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nLos antiguos pabellones de Kødbyen, en Vesterbro, acogen restaurantes, bares y eventos en un entorno de edificios blancos o marrones heredados de los mataderos. En Refshaleøen, Reffen reúne cocinas callejeras en contenedores y talleres reciclados. Estos espacios muestran cómo las antiguas zonas industriales se han convertido en destinos culinarios, con el riesgo de perder parte de su historia obrera.\n\n![Comida callejera en Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nEl almuerzo suele seguir siendo más sencillo que la cena. A los daneses les gusta la pausa para el café acompañada de un pastel, sin ritualizar cada encuentro. Los viernes, bares y oficinas pueden empezar pronto el fin de semana. La cerveza artesanal se ha disparado desde los años 2000, pero las marcas históricas y el schnaps siguen teniendo su lugar en las comidas tradicionales.\n\nConviene reservar en los restaurantes más solicitados, mientras que los puestos de mercado funcionan de forma más espontánea. El agua del grifo es potable y por lo general se sirve sin problema, aunque en algunos establecimientos puede cobrarse. El servicio está incluido; una propina modesta sigue siendo opcional. Para comer como un local, elija un sitio a unas pocas calles de los grandes muelles y observe lo que piden las mesas vecinas.","pl":"Poranek w Kopenhadze często zaczyna się w piekarni. Kupuje się tam rundstykke, kawałek chleba na zakwasie albo drożdżówkę, a potem kawę, którą czasem pije się w drodze. Nowe rzemieślnicze piekarnie podniosły ceny i poziom technicznej precyzji, ale osiedlowe lokale wciąż pozostają miejscami codziennej rutyny, gdzie zna się zamówienia stałych bywalców.\n\nTorvehallerne, niedaleko Nørreport, skupia dwie szklane hale otwarte w 2011 roku. Współistnieją tu rybacy, serowarzy, stoiska z warzywami, bary z smørrebrød i kuchnie z całego świata. To miejsce nie jest tanim, ludowym targiem, ale oferuje wygodny przegląd produktów i pozwala skomponować posiłek z małych porcji.\n\n![Hale Torvehallerne](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nDawne hale Kødbyen na Vesterbro mieszczą restauracje, bary i wydarzenia w scenerii białych lub brązowych budynków odziedziczonych po rzeźniach. Na Refshaleøen Reffen gromadzi uliczne kuchnie w kontenerach i zrecyrklowanych warsztatach. Te przestrzenie pokazują, jak poprzemysłowe tereny stały się kulinarnymi destynacjami, z ryzykiem utraty części swojej robotniczej historii.\n\n![Street food w Reffen](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nObiad pozostaje często prostszy niż kolacja. Duńczycy cenią sobie przerwę na kawę z ciastkiem, nie nadając każdemu spotkaniu rytualnego charakteru. W piątek bary i biura mogą wcześnie zaczynać weekend. Piwa rzemieślnicze eksplodowały popularnością od lat 2000., lecz historyczne marki i snaps nadal zajmują swoje miejsce w tradycyjnych posiłkach.\n\nW renomowanych restauracjach warto rezerwować stolik, podczas gdy stoiska targowe działają bardziej spontanicznie. Woda z kranu jest zdatna do picia i zazwyczaj bez problemu podawana, choć w niektórych lokalach bywa doliczana do rachunku. Obsługa jest wliczona w cenę; skromny napiwek jest opcjonalny. Aby jeść jak miejscowy, wybierz adres kilka ulic od głównych nabrzeży i obserwuj, co zamawiają sąsiednie stoliki.","ar":"غالبًا ما يبدأ الصباح في كوبنهاغن من مخبز. هناك يُشترى rundstykke، أو قطعة من خبز العجين المخمّر، أو معجنات، ثم قهوة تُشرب أحيانًا أثناء المشي. وقد رفعت المخابز الحرفية الجديدة الأسعار ومقدار الدقة التقنية، لكنّ محلات الأحياء تبقى أماكن روتينية يعرف فيها العاملون طلبات الزبائن الدائمين.\n\nتجمع Torvehallerne، قرب Nørreport، بين قاعتين زجاجيتين افتُتحتا عام 2011. وفيها يتجاور باعة السمك، وباعة الجبن، وأكشاك الخضراوات، وأحواض smørrebrød، ومطابخ من أنحاء العالم. المكان ليس سوقًا شعبيًا رخيصًا، لكنه يقدّم صورة عملية عن المنتجات ويتيح تأليف وجبة من حصص صغيرة.\n\n![قاعات سوق تورفيهاليرني](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nتستقبل القاعات القديمة في Kødbyen بحي Vesterbro مطاعمَ وباراتٍ وفعالياتٍ ضمن مشهد من مبانٍ بيضاء أو بنية ورثتُها عن المسالخ. وفي Refshaleøen، يجمع Reffen مطابخ الشارع داخل حاويات وورش مُعاد تدويرها. وتُظهر هذه الفضاءات كيف تحوّلت الأراضي الصناعية المهجورة إلى وجهاتٍ طهوية، مع خطر فقدان جزء من تاريخها العمالي.\n\n![طعام الشارع في \"ريفن\" (Reffen)](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\nيبقى الغداء غالبًا أبسط من العشاء. ويقدّر الدنماركيون استراحة القهوة المصحوبة بكعكة، من دون طقوسية في كل لقاء. وفي يوم الجمعة قد تبدأ الحانات والمكاتب عطلة نهاية الأسبوع مبكرًا. وقد ازدهرت البيرة الحرفية منذ سنوات 2000، لكن العلامات التجارية التاريخية وschnaps ما زالت تحتفظ بمكانتها في الوجبات التقليدية.\n\nمن الحكمة الحجز في المطاعم المرغوبة، بينما تعمل منصات الأسواق بشكل أكثر عفوية. ماء الصنبور صالح للشرب ويُقدَّم عادةً من دون مشكلة، وإن كان يُحتسب أحيانًا في بعض الأماكن. الخدمة مشمولة؛ والإكرامية البسيطة تبقى اختيارية. ولتأكل كما يأكل أحد السكان، اختر عنوانًا على بُعد بضعة شوارع من الأرصفة الكبرى، وراقب ما تطلبه الطاولات المجاورة.","cn":"哥本哈根的早晨往往从一家面包店开始。人们会在那里买一个 rundstykke、一块酸面团面包或一件丹麦酥点，再配上一杯咖啡，有时边走边喝。新兴的手工面包店抬高了价格，也提升了工艺的精细度，但街区里的老店依然是日常生活的场所，常客点什么，店家早已心中有数。\n\n靠近 Nørreport 的 Torvehallerne 由两座于2011年开放的玻璃大厅组成。鱼贩、奶酪商、蔬菜摊、smørrebrød柜台以及各国风味餐厅在这里并肩而立。这里并不是一个廉价的平民市场，但它提供了一个实用的食材全景，也方便人们用小份量拼出一餐。\n\n![Torvehallerne 市场大厅](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\n位于 Vesterbro 的 Kødbyen 老市场大厅，如今在由屠宰场沿袭下来的白色或棕色建筑背景中，接待餐厅、酒吧和各类活动。在 Refshaleøen，Reffen 则将街头美食聚集在集装箱和回收改造的工棚里。这些空间展示了工业废弃地如何变成美食目的地，同时也带来了失去部分工人阶级历史的风险。\n\n![Reffen 的街头美食](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\n午餐通常仍比晚餐更简单。丹麦人喜欢来一段咖啡时光，配上一块蛋糕，但并不会把每一次见面都仪式化。到了周五，酒吧和办公室里的周末氛围可能会提前开始。自2000年代以来，精酿啤酒迅速兴起，但传统品牌和烈性杜松子酒在传统餐桌上依然占有一席之地。\n\n在热门餐厅提前预订是明智之举，而市场柜台的用餐则更为随性。自来水可以直接饮用，通常也会毫无困难地提供，不过在某些场所可能会被收费。服务费已包含在内；少量小费并非必须。若想像当地人一样吃饭，可以选择离主要码头几条街远的餐馆，并观察邻桌点了什么。","ja":"コペンハーゲンの朝は、たいていパン屋から始まります。そこで rundstykke、サワードウのパンひとかけら、あるいはヴィエノワズリーを買い、時には歩きながら飲むコーヒーも手にします。新しい職人工房系のパン屋は価格と技術の精緻さを押し上げましたが、街区の店は今も、常連客の注文が分かる日常の場であり続けています。\n\nNørreport 近くの Torvehallerne は、2011年に開業した2つのガラス張りの市場ホールが集まる場所です。魚屋、チーズ店、野菜の売り場、smørrebrød のカウンター、世界各地の料理店が共存しています。ここは安くて庶民的な市場ではありませんが、食材の全体像を手軽に見渡せ、少量ずつ組み合わせて食事を作ることができます。\n\n![Torvehallerne の市場ホール](images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg)\n\nVesterbro の旧 Kødbyen の市場ホールでは、食肉処理場の名残を受け継ぐ白や茶色の建物を背景に、レストラン、バー、イベントが開かれています。Refshaleøen では、Reffen がコンテナや再利用された作業場に集められた屋台料理をまとめています。こうした空間は、工業用地の跡地がいかに食の目的地へ変わったかを示していますが、その一方で、労働者の歴史の一部が失われる危うさも抱えています。\n\n![Reffen の屋台料理](images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg)\n\n昼食は、夕食よりもあっさりしていることが少なくありません。デンマーク人は、ケーキを添えたコーヒーブレイクを好み、あらゆる出会いを儀式化するわけではありません。金曜日には、バーやオフィスが早く週末モードに入ることもあります。クラフトビールは2000年代以降に大きく広がりましたが、伝統的な食事では、歴史ある銘柄やシュナップスが今も大切な位置を占めています。\n\n人気店では予約しておくのが賢明ですが、市場のカウンターはもっと気軽に利用できます。水道水は飲用可能で、通常は問題なく提供されますが、店によっては有料のこともあります。サービス料は込みで、少額のチップは任意です。地元の人のように食べるなら、大きな埠頭から少し離れた場所にある店を選び、周囲のテーブルが何を注文しているかを観察してみてください。"}};
+window.CLQ_CULTURE_IMAGE_URLS = {"images/culture/lieux-et-habitudes-gourmandes.jpg":"images/culture/lieux-et-habitudes-gourmandes.jpg","images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg":"images/culture/inline/annex-gourmandes-les-halles-de-torvehallerne.jpg","images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg":"images/culture/inline/annex-gourmandes-cuisine-de-rue-a-reffen.jpg"};
+window.CLQ_CULTURE_I18N_OPTS = {"contentSelector":".info-text","linkSelector":"[data-title-i18n]","appTitle":"CityLoop Quest Copenhague"};
+function resolveCultureImageSrc(src) {
+    var map = window.CLQ_CULTURE_IMAGE_URLS || {};
+    return map[src] || src;
+  }
+  function cultureTextToHtml(text) {
+    function esc(value) {
+      return String(value || "").replace(/[&<>"']/g, function (ch) {
+        return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch];
+      });
+    }
+    var blocks = String(text || "").split(/\n{2,}/).filter(Boolean);
+    return blocks.map(function (block) {
+      var inline = block.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)\s*$/);
+      if (inline) {
+        var caption = inline[1].trim();
+        var src = resolveCultureImageSrc(inline[2].trim());
+        return '<figure class="culture-inline-photo"><img src="' + esc(src) + '" alt="' + esc(caption) + '" loading="lazy" /><figcaption>' + esc(caption) + '</figcaption></figure>';
+      }
+      return "<p>" + esc(block).replace(/\n/g, "<br>") + "</p>";
+    }).join("\n");
+  }
+(function () {
+  var LANG_ALIASES = { ja: ["ja", "jp"], jp: ["jp", "ja"], cn: ["cn", "zh", "zh-cn"], zh: ["zh", "cn"] };
+  function normalizeLang(lang) {
+    var code = String(lang || localStorage.getItem("selectedLanguage") || "fr").toLowerCase();
+    if (code === "jp") return "ja";
+    if (code === "zh" || code === "zh-cn") return "cn";
+    return code;
+  }
+  var CLQ_BACK_BUTTON_LABELS = { fr: "RETOUR", en: "BACK", nl: "TERUG", de: "ZURÜCK", it: "INDIETRO", es: "VOLVER", pl: "POWRÓT", ar: "رجوع", cn: "返回", ja: "戻る", jp: "戻る", zh: "返回" };
+  function applyCultureBackButton(lang) {
+    var code = normalizeLang(lang);
+    var label = CLQ_BACK_BUTTON_LABELS[code] || CLQ_BACK_BUTTON_LABELS.fr;
+    document.querySelectorAll('[data-translate="back_button"]').forEach(function (el) {
+      el.textContent = label;
+    });
+  }
+  function pickStrict(map, lang) {
+    if (!map) return "";
+    var codes = LANG_ALIASES[lang] || [lang];
+    for (var i = 0; i < codes.length; i++) {
+      var exact = map[codes[i]];
+      if (exact != null && String(exact).trim() !== "") return exact;
+    }
+    return "";
+  }
+  function applyCulturePageI18n() {
+    var opts = window.CLQ_CULTURE_I18N_OPTS || {};
+    var selector = opts.contentSelector || ".info-text";
+    var appTitle = opts.appTitle || "";
+    var lang = normalizeLang(localStorage.getItem("selectedLanguage") || "");
+    var data = window.CLQ_PAGE_I18N || {};
+    var title = pickStrict(data.title, lang);
+    if (title) {
+      document.title = appTitle ? title + " - " + appTitle : title;
+      var pageTitle = document.querySelector("[data-culture-page-title]") || document.querySelector("body > h1");
+      if (pageTitle) pageTitle.textContent = title;
+    }
+    var container = document.querySelector(selector);
+    var content = pickStrict(data.content, lang);
+    if (container) {
+      var appliedLang = container.getAttribute("data-culture-lang");
+      var storedLang = normalizeLang(localStorage.getItem("selectedLanguage") || "");
+      var skipContent = appliedLang && appliedLang !== "fr" && storedLang && storedLang !== "fr" && lang === "fr";
+      if (!skipContent) {
+        if (content) {
+          container.innerHTML = cultureTextToHtml(content);
+          container.setAttribute("data-culture-lang", lang);
+        } else if (lang === "fr") {
+          var frContent = pickStrict(data.content, "fr");
+          if (frContent) {
+            container.innerHTML = cultureTextToHtml(frContent);
+            container.setAttribute("data-culture-lang", "fr");
+          }
+        }
+      }
+    }
+    applyCultureBackButton(lang);
+    document.documentElement.lang = lang === "cn" ? "zh" : (lang === "ja" ? "ja" : lang);
+  }
+  window.__CLQ_CULTURE_I18N_INLINE__ = true;
+  window.applyCulturePageI18n = applyCulturePageI18n;
+  document.addEventListener("languageChanged", function () {
+    applyCulturePageI18n();
+  });
+  applyCulturePageI18n();
+})();
+</script>
+<script src="js/culture-page-i18n.js" defer></script>
+</body>
+</html>
